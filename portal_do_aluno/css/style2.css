@@ -1,0 +1,47 @@
+#nome,#Matricula{
+	width: 100%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#data_de_nascimento{
+	top: 70px;
+	width: 100%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+#email{
+	width: 100%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+#password{
+	width: 100%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+#cadastrar{
+	width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#cadastrar:hover {
+    background-color: #137b25;
+}
