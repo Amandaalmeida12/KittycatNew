@@ -236,7 +236,7 @@ position: fixed;
 left: 0;
 width: 100%;
 height: 30%;
-top: 80%;
+top: 83%;
 background:#00420c;
 color:#fff;
 width:66%;
@@ -246,4 +246,30 @@ font-family: inherit;
 font-size: 18px;
   
 }
+.footer-p{
+  position: relative;
+  width: 360px;
+  height: 200px;
+  top:2px;
+
+}
   
+  .font-awesome{
+    position: fixed;
+    top:85%;
+    left:810px;
+    width: 300px;
+    height: 300px;
+    font-size:30px;
+
+  } 
+   .fa-facebook-square{
+    color: #fff;
+  }
+  .fa-map-marker{
+    color: #fff;
+
+  }
+  .fa-instagram{
+    color: #fff;
+  }
