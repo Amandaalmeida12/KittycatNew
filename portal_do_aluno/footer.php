@@ -1,12 +1,4 @@
 <footer>
-
-<html>
-<head>
-    <meta charset="utf-8">
-	<link rel="stylesheet" href="css/font-awesome.css">
-</head>
-<body>
-
 <div class="footer-p">
 
  <p>Instituto Federal de Pernambuco<br>

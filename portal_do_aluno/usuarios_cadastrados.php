@@ -18,14 +18,14 @@ include("header.php");
 		<th width="5%" height="5%">Nome</th>
 		<th width="5%" height="5%">Data de Nascimento</th>
 	    <th width="5%" height="5%">Email</th>
-		<th width="5%" height="5%">Senha</th>
+		
 	</tr>
 		<?php foreach ($ret as $row): ?>
 			<tr class="nada">
 				 <td width="5%" height="5%"><?= $row["nome"] ?></td>
 				 <td width="5%" height="5%"><?= $row["data_de_nascimento"] ?></td>
 				 <td width="5%" height="5%"><?= $row["email"] ?></td>
-				 <td width="5%" height="5%"><?= $row["senha"] ?></td>
+				 
 			</tr>
            
         <?php endforeach ?>
