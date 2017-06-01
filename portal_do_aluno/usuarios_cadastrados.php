@@ -1,10 +1,10 @@
 <?php
-$dbName = 'cadastro';
+$dbName = 'portal_aluno_db';
  $host = 'localhost';
  $user = 'root';
  $dsn = "mysql:dbname=$dbName;host=$host";
  $pdo = new PDO($dsn, $user);
- $ret = $pdo->query("SELECT * FROM user");
+ $ret = $pdo->query("SELECT * FROM users");
 
 ?>
 <?php
