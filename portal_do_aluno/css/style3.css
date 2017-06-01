@@ -1,6 +1,7 @@
- #avaliacoes {
+ #bt7 {
  
     border-radius: 50%;
+    
     display: inline-block;
     line-height:170px;
     vertical-align: middle;
@@ -17,8 +18,9 @@
     box-shadow: inset -10px -10px 10px DarkGreen , inset 3px 3px 5px DarkGreen;
 }
 
- #avaliacoes:hover {
+ #bt7:hover {
   position: absolute;
+  
   padding: 5px;
   padding-left: 30px;
   padding-top: 30px;
@@ -34,8 +36,8 @@
   transition: 0.3s ease-out;
 }
 
- #matricula {
- 
+ #bt1 {
+     
     border-radius: 50%;
     display: inline-block;
     line-height:200px;
@@ -53,7 +55,8 @@
     box-shadow: inset -10px -10px 10px DarkGreen , inset 3px 3px 5px DarkGreen;
 }
 
- #matricula:hover {
+ #bt1:hover {
+   
   position: absolute;
   padding: 5px;
   padding-left: 30px;
@@ -70,9 +73,9 @@
   transition: 0.3s ease-out;
 }
 
-#duvidas{
+#bt8{
 
- 
+    
     border-radius: 50%;
     position: absolute;
     display: inline-block;
@@ -91,7 +94,8 @@
     box-shadow: inset -10px -10px 10px DarkGreen , inset 3px 3px 5px DarkGreen;
 }
 
- #duvidas:hover {
+ #bt8:hover {
+  
   position: absolute;
   padding: 5px;
   padding-left: 30px;
@@ -108,8 +112,8 @@
   transition: 0.3s ease-out;
 }
 
-#horarios {
- 
+#bt9 {
+    
     border-radius: 50%;
     display: inline-block;
     line-height:100px;
@@ -127,7 +131,8 @@
     box-shadow: inset -10px -10px 10px green , inset 3px 3px 5px green ;
 }
 
- #horarios:hover {
+ #bt9:hover {
+  
   position: absolute;
   padding: 5px;
   padding-left: 30px;
@@ -144,8 +149,9 @@
   transition: 0.3s ease-out;
 }
 
-#frequencia {
- 
+#bt10 {
+
+    
     border-radius: 50%;
     display: inline-block;
     line-height:150px;
@@ -162,7 +168,8 @@
     box-shadow: inset -10px -10px 10px DarkGreen , inset 3px 3px 5px DarkGreen;
 }
 
- #frequencia:hover {
+ #bt10:hover {
+  
   position: absolute;
   padding: 5px;
   padding-left: 30px;
@@ -179,8 +186,8 @@
   transition: 0.3s ease-out;
 }
 
-#notas {
- 
+#bt6 {
+    
     border-radius: 50%;
     display: inline-block;
     line-height:100px;
@@ -197,10 +204,12 @@
     box-shadow: inset -10px -10px 10px green , inset 3px 3px 5px green ;
 }
 
- #notas:hover {
+ #bt6:hover {
+  
   position: absolute;
   padding: 5px;
-  padding-left: 30px;
+  padding-left:
+   30px;
   padding-top: 30px;
   left: 520px;
   top: 220px;
@@ -214,8 +223,8 @@
   transition: 0.3s ease-out;
 }
 
-#trancamento {
- 
+#bt2 {
+    
     border-radius: 50%;
     display: inline-block;
     line-height:110px;
@@ -232,7 +241,8 @@
     box-shadow: inset -10px -10px 10px green , inset 3px 3px 5px green ;
 }
 
- #trancamento:hover {
+ #bt2:hover {
+  
   position: absolute;
   padding: 5px;
   padding-left: 30px;
@@ -249,8 +259,8 @@
   transition: 0.3s ease-out;
 }
 
-#faltas{
- 
+#bt5{
+    
     border-radius: 50%;
     display: inline-block;
     line-height:70px;
@@ -267,7 +277,8 @@
     box-shadow: inset -10px -10px 10px green , inset 3px 3px 5px green ;
 }
 
- #faltas:hover {
+ #bt5:hover {
+  
   position: absolute;
   padding: 5px;
   padding-left: 30px;
@@ -284,8 +295,9 @@
   transition: 0.3s ease-out;
 }
 
-#jubilamento {
- 
+#bt4 {
+
+    
     border-radius: 50%;
     display: inline-block;
     line-height:100px;
@@ -302,7 +314,8 @@
     box-shadow: inset -10px -10px 10px green , inset 3px 3px 5px green ;
   }
 
-#jubilamento:hover {
+#bt4:hover {
+    
     position: absolute;
     padding: 5px;
     padding-left: 30px;
@@ -319,8 +332,8 @@
     transition: 0.3s ease-out;
   }
 
-#transferencia{
- 
+#bt3{
+    
     border-radius: 50%;
     display: inline-block;
     line-height:80px;
@@ -337,7 +350,8 @@
     box-shadow: inset -10px -10px 10px green , inset 3px 3px 5px green;
   }
 
-#transferencia:hover {
+#bt3:hover {
+  
   position: absolute;
   padding: 5px;
   padding-left: 30px;

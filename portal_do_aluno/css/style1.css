@@ -134,7 +134,7 @@
  }
  h3{
    
-   color:#1a2a39;
+   color:#fff;
    font-size:1.3em;
    font-family: :sans serif, Verdana,Arial;
  }
@@ -154,6 +154,7 @@
    margin-right: auto;
  }
  .horarios{
+  color:#1a2a39;
    text-align: center;
    margin: 20px 4px 70px;
    font-size: 1.5em

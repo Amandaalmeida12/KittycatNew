@@ -1,74 +1,90 @@
 <?php
 include("header.php");
 ?>
+<script type="text/javascript">
+   $(document).ready(function(){
+         $('#matricula').click(function(event){
+            event.preventDefault();
+            $("#div1").hide("slow");
+           
+         })
+         $('#trancamento').click(function(event){
+            event.preventDefault();
+            $("#div2").hide("slow");
+           
+         })
+         $('#transferencia').click(function(event){
+            event.preventDefault();
+            $("#div3").hide("slow");
+           
+         })
+         $('#jubilamento').click(function(event){
+            event.preventDefault();
+            $("#div4").hide("slow");
+           
+         })
+          $('#faltas').click(function(event){
+            event.preventDefault();
+            $("#div5").hide("slow");
+           
+         })
+          $('#notas').click(function(event){
+            event.preventDefault();
+            $("#div6").hide("slow");
+           
+         })
+           $('#avaliacoes').click(function(event){
+            event.preventDefault();
+            $("#div7").hide("slow");
+           
+         })
+      });
+</script>
         
       <section>
          <h1>Manual do Estudante</h1>
       
 
-         <div id="avaliacoes"  >
-            <a  class ="link1" a href="#exames_finais">Avaliações</a>
-         </div>
-
-         <div id="matricula" >
-           <a  class ="link1" a href="#Matricula">Matrículas</a>
-         </div>
-
-         <div id="duvidas" >
-            <a  class ="link1" a href="#duvidas">Duvidas</a>
-         </div>
-
-         <div id="frequencia">
-            <a  class ="link1" a href="#frequencias">Frequencias</a>
-         </div>
-
-         <div id="notas">
-            <a  class ="link1" a href="#notas">Notas</a>
-         </div>
-
-         <div id="trancamento">
-            <a  class ="link1" a href="#trancamento">Trancamento</a>
-         </div>
-
-         <div id="faltas">
-            <a  class ="link1" a href="#faltas">Faltas</a>
-         </div>
-
-         <div id="jubilamento">
-            <a  class ="link1" a href="#jubilamento">Jubilamento</a>
-         </div>
-
-         <div id="transferencia">
-            <a  class ="link1" a href="#transferencia">Transferencia</a>
-         </div>
+<button  id="bt7">Avaliações</button>
+<button   id="bt1">Matrícula</button>
+<button  id="bt8">Dúvidas</button>
+<button  id="bt10">Frequência</button>
+<button  id="bt6">Notas</button>
+<button  id="bt2">Trancamento</button>
+<button  id="bt5">Faltas</button>
+<button  id="bt4">Jubilamento</button>
+<button  id="bt3">Transferência</button>
+<button  id="bt9">Horários</button>
+<br><br>
+<div id="div1" >
+<span id="matricula" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+<h3 a name="matricula"> Matrícula</h3>
+<p class="paragrafos">O período da matrícula dos candidatos classificados em processo de seleção será publicado em edital especifico e a matrícula  será efetuada pela codernação do registro acadêmico  dos campi equivalentes.Os candidatos classificados em processo de seleção serão matrículados  obrigatoriamente em todos os componentes curriculares do módulo  e programado para o 1° período  letivo.</p>
+</div>
+<div id="div2">
+<span  id="trancamento" a href="#"><i class="fa fa-times" aria-hidden="true"></i></span>
+   <h3 a name="trancamento">Trancamento de Matrícula</h3>
+   <p class="paragrafo">O estudante regulamente matrículado no curso do IFPE será concedido o trancamento de matrícula do curso quando solicitado através de requerimento dirigido a Direção de Ensino.O trancamento  de matrícula  deverá ser efetivado no período  definido  no calendário acadêmico de cada campus  , exceto  em casos excepcionais devidamente comprovados , a serem autorizados pela Direção de Ensino.O transcamentos de matrícula do curso ou de componente  curricular do estudante menor de idade  só poderá ser realizado por seu responsável legal.O prazo concedido para o trancamento do curso  do IFPE de forma contínua ou alternada , não poderá ultrapassar 2(dois)anos.</p>
          
-         <div id="horarios">
-            <a  class ="link1" a href="#horarios">Horarios</a>
-         </div>
+</div>
+<div id="div3">
+<span id="transferencia" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
 
-      
-         <h3 a name="Matricula">Matrícula</h3>
-         <p>O período da matrícula dos candidatos classificados em processo de seleção será publicado em edital especifico e a matrícula  será efetuada pela codernação
-            do registro acadêmico  dos campi equivalentes.Os candidatos classificados em processo de seleção serão matrículados  obrigatoriamente em todos os componentes
-            curriculares do módulo  e programado para o 1° período  letivo.
-         </p>
-         <h3 a name="trancamento">Trancamento de Matrícula</h3>
-         <p>O estudante regulamente matrículado no curso do IFPE será concedido o trancamento de matrícula do curso quando solicitado através de requerimento dirigido a Direção
-            de Ensino.O trancamento  de matrícula  deverá ser efetivado no período  definido  no calendário acadêmico de cada campus  , exceto  em casos excepcionais devidamente 
-            comprovados , a serem autorizados pela Direção de Ensino.O transcamentos de matrícula do curso ou de componente  curricular do estudante menor de idade  só poderá
-            ser realizado por seu responsável legal.O prazo concedido para o trancamento do curso  do IFPE de forma contínua ou alternada , não poderá ultrapassar 2(dois)anos.
-         </p>
-         <h3 a name="transferencia">Transfêrencia de Estudantes</h3>
-         <p>O IFPE expedirá a transferência  do estudante para outras instituições de ensino,mediante requerimento,em qualquer época do ano .A solicitação de transfrência deverá 
-            ser feita pelo estudante  maior de idade  ou pelo representante  legal do estudante menor de idade.
-         </p>
-         <h3 a name="jubilamento">Da Integralização  ao Jubilamento</h3>
-         <p>O prazo minímo de Integralização  será estabelecido  no projeto pedagógico do curso  e o prazo máximo correspondente a 5(cinco)anos, conforme legislação vigente.<br>
-            O jubilamento  é o desligamento do estudante da Instituição por meio de recusaa da matrícula acadêmica do estudante no curso ao qual será vinculado.O jubilamento será
-            efetivado , quando o esgotado o prazi máximo de integralização do curso , conforme estabelecido pela legislação pertinentte e nos termos desta Organização Acadêmica.
-         </p>
-         <h3  a name="faltas">Da Ausência Justificada</h3>
-         <p>Será permitida ao estudante requerer, por escrito no Registro Acadêmico e em um formulário próprio , justificativa de ausência em atividade acadêmca no prazo de 05(cinco)dias úteis após a data do afastamento desde que fique comprovado o impedimento do estudante por um dos seguintes motivos:</p>
+<h3 a name="transferencia">Transfêrencia de Estudantes</h3>
+   <p class="paragrafos"> O IFPE expedirá a transferência  do estudante para outras instituições de ensino,mediante requerimento,em qualquer época do ano .A solicitação de transfrência deverá ser feita pelo estudante  maior de idade  ou pelo representante  legal do estudante menor de idade.</p>
+         
+</div>
+<div id="div4">
+ <span id="jubilamento" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+
+   <h3 a name="jubilamento">Da Integralização  ao Jubilamento</h3>
+      <p class="paragrafos"> O prazo minímo de Integralização  será estabelecido  no projeto pedagógico do curso  e o prazo máximo correspondente a 5(cinco)anos, conforme legislação vigente.<br> O jubilamento  é o desligamento do estudante da Instituição por meio de recusaa da matrícula acadêmica do estudante no curso ao qual será vinculado.O jubilamento será efetivado , quando o esgotado o prazi máximo de integralização do curso , conforme estabelecido pela legislação pertinentte e nos termos desta Organização Acadêmica.</p>
+        
+</div>
+<div id="div5">
+<span id="faltas" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+    <h3  a name="faltas">Da Ausência Justificada</h3>
+         <p class="paragrafos">Será permitida ao estudante requerer, por escrito no Registro Acadêmico e em um formulário próprio , justificativa de ausência em atividade acadêmca no prazo de 05(cinco)dias úteis após a data do afastamento desde que fique comprovado o impedimento do estudante por um dos seguintes motivos:</p>
          <ol class="lista">
             <li>Serviço militar;</li>
             <li>Flecimento de parente em primeiro e segundo grau;</li>
@@ -79,11 +95,19 @@ include("header.php");
             <li>Convocação judicial;</li>
             <li>Força maior.</li>
          </ol>
-         <h3 a name="notas">Da Aprovação</h3>
-         <p>Estará bem aprovado no curso ,o estudante que obtiver frequência igual ou superior a 75%  em cada componente  curricular e média 6,0 (seis) em cada componente curricular que acompanha  a matriz do curso.</p>
-         <h3 a name="exames_finais">Exames Finais</h3>
-         <p>Terá o direito de realizar o exame final o estudante  que obtiver , no mínimo  média 2,0(dois) e frequência igual ou superior a 75%  no cômputo de carga horária  total dos componentes curriculares.Será considerado aprovado , após os exames finais . o estudante  cuja média aritmética final for igual ou superior a 6,0(seis). </p>
+</div>
+<div id="div6">
+<span id="notas" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+   <h3 a name="notas">Da Aprovação</h3>
+        <p class="paragrafos"> Estará bem aprovado no curso ,o estudante que obtiver frequência igual ou superior a 75%  em cada componente  curricular e média 6,0 (seis) em cada componente curricular que acompanha  a matriz do curso.</p>
+         
+</div>
+<div id="div7">
+<span  id="avaliacoes" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+   <h3 a name="exames_finais">Exames Finais</h3>
+      <p class="paragrafos"> Terá o direito de realizar o exame final o estudante  que obtiver , no mínimo  média 2,0(dois) e frequência igual ou superior a 75%  no cômputo de carga horária  total dos componentes curriculares.Será considerado aprovado , após os exames finais . o estudante  cuja média aritmética final for igual ou superior a 6,0(seis).</p>
          <img src="http://i63.tinypic.com/295u3dg.jpg" align="center">
+</div>
          <div class="horarios">
             <h3 a name="horarios" class="horarios" >Horários</h3>
          </div>
@@ -253,7 +277,7 @@ include("header.php");
                <td id="celula1">14:20h-15:05h</td>
                <td id="celula1"><a href="ementas/engenharia.php" class="link2" >Engenharia de Software</a></td>
                <td id="celula1"><a href="ementas/interacao.php" class="link2">Interação Humano-Computador</a></td>
-               <td id="celula1"><a href="ementas/Implantaçãoe.php" class="link2" >Implantação e Administração<br> de Serviços Web 	</a></td>
+               <td id="celula1"><a href="ementas/Implantaçãoe.php" class="link2" >Implantação e Administração<br> de Serviços Web   </a></td>
                <td id="celula1"><a href="ementas/desenvolvimento2.php" class="link2">Desenvolvimento Web II</a></td>
                <td id="celula1"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</a></td>
             </tr>
