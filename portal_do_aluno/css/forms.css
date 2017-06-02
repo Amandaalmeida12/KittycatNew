@@ -6,6 +6,16 @@
 	border-radius: 4px;
 	box-sizing: border-box;
 }
+#MATRICULA{
+	width: 100%;
+	padding: 2px 2px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+
+}
+
 
 #data_de_nascimento{
 	top: 70px;
@@ -44,4 +54,14 @@
 }
 #cadastrar:hover {
     background-color: #137b25;
+}
+#entrar{
+	width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1px 3px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }

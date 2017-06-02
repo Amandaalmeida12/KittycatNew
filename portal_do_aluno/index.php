@@ -3,37 +3,37 @@ include("header.php");
 ?>
 <script type="text/javascript">
    $(document).ready(function(){
-         $('#matricula').click(function(event){
+         $('#Matricula').click(function(event){
             event.preventDefault();
             $("#div1").hide("slow");
            
          })
-         $('#trancamento').click(function(event){
+         $('#Trancamento').click(function(event){
             event.preventDefault();
             $("#div2").hide("slow");
            
          })
-         $('#transferencia').click(function(event){
+         $('#Transferencia').click(function(event){
             event.preventDefault();
             $("#div3").hide("slow");
            
          })
-         $('#jubilamento').click(function(event){
+         $('#Jubilamento').click(function(event){
             event.preventDefault();
             $("#div4").hide("slow");
            
          })
-          $('#faltas').click(function(event){
+          $('#Faltas').click(function(event){
             event.preventDefault();
             $("#div5").hide("slow");
            
          })
-          $('#notas').click(function(event){
+          $('#Notas').click(function(event){
             event.preventDefault();
             $("#div6").hide("slow");
            
          })
-           $('#avaliacoes').click(function(event){
+           $('#Avaliacoes').click(function(event){
             event.preventDefault();
             $("#div7").hide("slow");
            
@@ -41,76 +41,75 @@ include("header.php");
       });
 </script>
         
-      <section>
-         <h1>Manual do Estudante</h1>
+<section>
+   <h1>Manual do Estudante</h1>
       
+   <button  class="bolhaG" id="avaliacoes">Avaliações</button>
+   <button  class="bolhaG" id="matricula">Matrícula</button>
+   <button  class="bolhaG" id="duvidas">Dúvidas</button>
+   <button  class="bolhaG" id="frequencia">Frequência</button>
+   <button  class="bolhaP" id="notas">Notas</button>
+   <button  class="bolhaP" id="trancamento">Trancamento</button>
+   <button  class="bolhaP" id="faltas">Faltas</button>
+   <button  class="bolhaP" id="jubilamento">Jubilamento</button>
+   <button  class="bolhaP" id="transferencia">Transferência</button>
+   <a href="#div_horarios" class ="link1" ><button   class="bolhaP" id="horarios">Horários</button></a>
+  <div id="div1" >
+    <span id="Matricula" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+    <h3 a name="matricula"> Matrícula</h3>
+    <p class="paragrafos">O período da matrícula dos candidatos classificados em processo de seleção será publicado em edital especifico e a matrícula  será efetuada pela codernação do registro acadêmico  dos campi equivalentes.Os candidatos classificados em processo de seleção serão matrículados  obrigatoriamente em todos os componentes curriculares do módulo  e programado para o 1° período  letivo.</p>
+   </div>
 
-<button  id="bt7">Avaliações</button>
-<button   id="bt1">Matrícula</button>
-<button  id="bt8">Dúvidas</button>
-<button  id="bt10">Frequência</button>
-<button  id="bt6">Notas</button>
-<button  id="bt2">Trancamento</button>
-<button  id="bt5">Faltas</button>
-<button  id="bt4">Jubilamento</button>
-<button  id="bt3">Transferência</button>
-<button  id="bt9">Horários</button>
-<br><br>
-<div id="div1" >
-<span id="matricula" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
-<h3 a name="matricula"> Matrícula</h3>
-<p class="paragrafos">O período da matrícula dos candidatos classificados em processo de seleção será publicado em edital especifico e a matrícula  será efetuada pela codernação do registro acadêmico  dos campi equivalentes.Os candidatos classificados em processo de seleção serão matrículados  obrigatoriamente em todos os componentes curriculares do módulo  e programado para o 1° período  letivo.</p>
-</div>
-<div id="div2">
-<span  id="trancamento" a href="#"><i class="fa fa-times" aria-hidden="true"></i></span>
-   <h3 a name="trancamento">Trancamento de Matrícula</h3>
-   <p class="paragrafo">O estudante regulamente matrículado no curso do IFPE será concedido o trancamento de matrícula do curso quando solicitado através de requerimento dirigido a Direção de Ensino.O trancamento  de matrícula  deverá ser efetivado no período  definido  no calendário acadêmico de cada campus  , exceto  em casos excepcionais devidamente comprovados , a serem autorizados pela Direção de Ensino.O transcamentos de matrícula do curso ou de componente  curricular do estudante menor de idade  só poderá ser realizado por seu responsável legal.O prazo concedido para o trancamento do curso  do IFPE de forma contínua ou alternada , não poderá ultrapassar 2(dois)anos.</p>
-         
-</div>
-<div id="div3">
-<span id="transferencia" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+  <div id="div2">
+    <span  id="Trancamento" a href="#"><i class="fa fa-times" aria-hidden="true"></i></span>
+    <h3 a name="trancamento">Trancamento de Matrícula</h3>
+    <p class="paragrafo">O estudante regulamente matrículado no curso do IFPE será concedido o trancamento de matrícula do curso quando solicitado através de requerimento dirigido a Direção de Ensino.O trancamento  de matrícula  deverá ser efetivado no período  definido  no calendário acadêmico de cada campus  , exceto  em casos excepcionais devidamente comprovados , a serem autorizados pela Direção de Ensino.O transcamentos de matrícula do curso ou de componente  curricular do estudante menor de idade  só poderá ser realizado por seu responsável legal.O prazo concedido para o trancamento do curso  do IFPE de forma contínua ou alternada , não poderá ultrapassar 2(dois)anos.</p> 
+   </div>
 
-<h3 a name="transferencia">Transfêrencia de Estudantes</h3>
-   <p class="paragrafos"> O IFPE expedirá a transferência  do estudante para outras instituições de ensino,mediante requerimento,em qualquer época do ano .A solicitação de transfrência deverá ser feita pelo estudante  maior de idade  ou pelo representante  legal do estudante menor de idade.</p>
-         
-</div>
-<div id="div4">
- <span id="jubilamento" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+  <div id="div3">
+    <span id="Transferencia" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+    <h3 a name="transferencia">Transfêrencia de Estudantes</h3>
+    <p class="paragrafos"> O IFPE expedirá a transferência  do estudante para outras instituições de ensino,mediante requerimento,em qualquer época do ano .A solicitação de transfrência deverá ser feita pelo estudante  maior de idade  ou pelo representante  legal do estudante menor de idade.</p>         
+   </div>
 
-   <h3 a name="jubilamento">Da Integralização  ao Jubilamento</h3>
-      <p class="paragrafos"> O prazo minímo de Integralização  será estabelecido  no projeto pedagógico do curso  e o prazo máximo correspondente a 5(cinco)anos, conforme legislação vigente.<br> O jubilamento  é o desligamento do estudante da Instituição por meio de recusaa da matrícula acadêmica do estudante no curso ao qual será vinculado.O jubilamento será efetivado , quando o esgotado o prazi máximo de integralização do curso , conforme estabelecido pela legislação pertinentte e nos termos desta Organização Acadêmica.</p>
-        
-</div>
-<div id="div5">
-<span id="faltas" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+  <div id="div4">
+    <span id="Jubilamento" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+    <h3 a name="jubilamento">Da Integralização  ao Jubilamento</h3>
+    <p class="paragrafos"> O prazo minímo de Integralização  será estabelecido  no projeto pedagógico do curso  e o prazo máximo correspondente a 5(cinco)anos, conforme legislação vigente.<br> O jubilamento  é o desligamento do estudante da Instituição por meio de recusaa da matrícula acadêmica do estudante no curso ao qual será vinculado.O jubilamento será efetivado , quando o esgotado o prazi máximo de integralização do curso , conforme estabelecido pela legislação pertinentte e nos termos desta Organização Acadêmica.</p>
+   </div>
+
+  <div id="div5">
+    <span id="Faltas" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
     <h3  a name="faltas">Da Ausência Justificada</h3>
-         <p class="paragrafos">Será permitida ao estudante requerer, por escrito no Registro Acadêmico e em um formulário próprio , justificativa de ausência em atividade acadêmca no prazo de 05(cinco)dias úteis após a data do afastamento desde que fique comprovado o impedimento do estudante por um dos seguintes motivos:</p>
-         <ol class="lista">
-            <li>Serviço militar;</li>
-            <li>Flecimento de parente em primeiro e segundo grau;</li>
-            <li>Licença gestação;</li>
-            <li>Doença</li>
-            <li>Internamento hospitalar;</li>
-            <li>Acompanhamento em internamento hospitalar do filho(a),cônjugue e genitor(a);</li>
-            <li>Convocação judicial;</li>
-            <li>Força maior.</li>
-         </ol>
-</div>
-<div id="div6">
-<span id="notas" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+    <p class="paragrafos">Será permitida ao estudante requerer, por escrito no Registro Acadêmico e em um formulário próprio , justificativa de ausência em atividade acadêmca no prazo de 05(cinco)dias úteis após a data do afastamento desde que fique comprovado o impedimento do estudante por um dos seguintes motivos:</p>
+    <ol class="lista">
+       <li>Serviço militar;</li>
+       <li>Flecimento de parente em primeiro e segundo grau;</li>
+       <li>Licença gestação;</li>
+       <li>Doença</li>
+       <li>Internamento hospitalar;</li>
+       <li>Acompanhamento em internamento hospitalar do filho(a),cônjugue e genitor(a);</li>
+       <li>Convocação judicial;</li>
+       <li>Força maior.</li>
+      </ol>
+   </div>
+
+  <div id="div6">
+   <span id="Notas" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
    <h3 a name="notas">Da Aprovação</h3>
-        <p class="paragrafos"> Estará bem aprovado no curso ,o estudante que obtiver frequência igual ou superior a 75%  em cada componente  curricular e média 6,0 (seis) em cada componente curricular que acompanha  a matriz do curso.</p>
-         
-</div>
-<div id="div7">
-<span  id="avaliacoes" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
-   <h3 a name="exames_finais">Exames Finais</h3>
-      <p class="paragrafos"> Terá o direito de realizar o exame final o estudante  que obtiver , no mínimo  média 2,0(dois) e frequência igual ou superior a 75%  no cômputo de carga horária  total dos componentes curriculares.Será considerado aprovado , após os exames finais . o estudante  cuja média aritmética final for igual ou superior a 6,0(seis).</p>
-         <img src="http://i63.tinypic.com/295u3dg.jpg" align="center">
-</div>
-         <div class="horarios">
-            <h3 a name="horarios" class="horarios" >Horários</h3>
-         </div>
+   <p class="paragrafos"> Estará bem aprovado no curso ,o estudante que obtiver frequência igual ou superior a 75%  em cada componente  curricular e média 6,0 (seis) em cada componente curricular que acompanha  a matriz do curso.</p>
+   </div>
+
+  <div id="div7">
+    <span  id="Avaliacoes" a href="#" ><i class="fa fa-times" aria-hidden="true"></i></span>
+    <h3 a name="exames_finais">Exames Finais</h3>
+    <p class="paragrafos"> Terá o direito de realizar o exame final o estudante  que obtiver , no mínimo  média 2,0(dois) e frequência igual ou superior a 75%  no cômputo de carga horária  total dos componentes curriculares.Será considerado aprovado , após os exames finais . o estudante  cuja média aritmética final for igual ou superior a 6,0(seis).</p>
+    <img src="http://i63.tinypic.com/295u3dg.jpg" align="center">
+   </div>
+  <div id="div_horarios">
+   <div class="horarios">
+    <h3 a name="horarios" class="horarios" >Horários</h3>
+   </div>
          <h4>INFORMÁTICA 1°-TARDE-SALA 01</h4>
          <br> 
          <br>
@@ -306,9 +305,9 @@ include("header.php");
                <td id="celula1"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</td>
             </tr>
          </table>
-      </section>
-      <?php
-      include("footer.php");
-      ?>
+  </div>      
+</section>
+<?php
+   include("footer.php");
+?>
  
-

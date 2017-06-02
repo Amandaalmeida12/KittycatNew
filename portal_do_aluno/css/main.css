@@ -232,12 +232,18 @@ text-decoration:underline;
   vertical-align:middle;
   position: right;
 }
+#div_horarios{
+
+  position: relative;
+  top:500px;
+}
 footer{
 position: fixed;
 left: 0;
+right: 0;
 width: 100%;
 height: 30%;
-top: 83%;
+top: 80%;
 background:#00420c;
 color:#fff;
 width:66%;
@@ -264,7 +270,7 @@ font-size: 18px;
     font-size:30px;
 
   } 
-   .fa-facebook-square{
+   .fa-facebook-official{
     color: #fff;
   }
   .fa-map-marker{
@@ -274,3 +280,13 @@ font-size: 18px;
   .fa-instagram{
     color: #fff;
   }
+  .fa-user-circle,.fa-calendar,.fa-keyboard-o,.fa-envelope,.fa-unlock-alt{
+    position: absolute;
+     padding: 9px 10px ;
+     font-size: 50px;
+
+
+  }
+placeholder{
+  
+}

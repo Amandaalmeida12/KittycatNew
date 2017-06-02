@@ -1,3 +1,6 @@
+
+	<link rel="stylesheet" href="css/font-awesome.css">
+
 <footer>
 <div class="footer-p">
 
@@ -10,7 +13,7 @@
 
   <div class="font-awesome">
  <span>
-  <a href="https://www.facebook.com/ifpecampusigarassu/"><i class="fa fa-facebook-square"></i></a> 
+  <a href="https://www.facebook.com/ifpecampusigarassu/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> 
   <br>
   <a href="https://goo.gl/maps/6t2cwyjBQJC2"><i class="fa fa-map-marker"></i></a>
   <br>
@@ -18,7 +21,7 @@
 
 </span>
 </div>
-
+</footer>
 </body>
 </html>
 

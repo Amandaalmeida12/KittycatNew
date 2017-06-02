@@ -1,0 +1,160 @@
+.bolhaG {
+    position: absolute; 
+    border-radius: 50%;
+    display: inline-block;
+    line-height:170px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 17px;
+    color:#FFFFFF;
+    height:170px;
+    width: 170px;
+    border: 1px solid DarkGreen ;
+    background-color: DarkGreen ;
+    box-shadow: inset -10px -10px 10px DarkGreen , inset 3px 3px 5px DarkGreen;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+.bolhaG:hover{
+    height: 210px;
+    width: 210px;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+} 
+
+.bolhaP {
+    border-radius: 50%;
+    display: inline-block;
+    line-height:110px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute; 
+    height:110px;
+    width: 110px;
+    border: 1px solid green ;
+    background-color: green ;
+    box-shadow: inset -10px -10px 10px green , inset 3px 3px 5px green ;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+
+.bolhaP:hover {
+  height:140px;
+  width: 140px;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+#notas{
+  left: 520px;
+  top: 220px
+}
+#avaliacoes {
+  top: 250px;
+  left: 550px;
+  }
+
+#avaliacoes:hover {
+  top: 230px;
+  left: 530px;
+  }
+
+#matricula {
+  top: 300px;
+  left: 800px;
+  }
+
+#matricula:hover {
+  top: 300px;
+  left: 800px;
+}
+
+#duvidas { 
+  top: 200px;
+  left: 1100px;
+}
+
+#duvidas:hover {
+  top: 200px;
+  left: 1100px;
+}
+
+#horarios { 
+  top: 190px;
+  left: 1220px;
+}
+
+#horarios:hover {
+  top: 190px;
+  left: 1220px;
+}
+
+#frequencia{ 
+  top: 450px;
+  left: 470px;
+}
+
+#frequencia:hover {
+  top: 450px;
+  left: 470px;
+}
+
+#faltas {
+  top: 220px;
+  left: 520px;
+}
+
+ #faltas:hover {
+  top: 220px;
+  left: 520px;
+}
+
+#trancamento{
+  top: 400px;
+  left: 750px;
+}
+
+#trancamento:hover {
+  top: 400px;
+  left: 750px;
+}
+
+#faltas{
+  top: 540px;
+  left: 575px;
+}
+
+#faltas:hover {
+  left: 575px;
+  top: 540px;
+}
+
+#jubilamento {
+  top: 250px;
+  left: 850px;
+  }
+
+#jubilamento:hover {
+  top: 235px;
+  left: 835px;
+  }
+
+#transferencia{
+  left: 950px;
+  top: 350px;
+  }
+
+#tansferencia:hover {
+  left: 950px;
+  top: 350px;
+}

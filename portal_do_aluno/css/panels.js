@@ -14,20 +14,20 @@ window.onload=function(){
      div6=document.getElementById("div6");
      div7=document.getElementById("div7");
 
-     var bt1=document.getElementById("bt1");
-     bt1.onclick=mostrarDiv1;
-     var bt2=document.getElementById("bt2");
-     bt2.onclick=mostrarDiv2;
-     var bt3=document.getElementById("bt3");
-     bt3.onclick=mostrarDiv3;
-     var bt4=document.getElementById("bt4");
-     bt4.onclick=mostrarDiv4;
-     var bt5=document.getElementById("bt5");
-     bt5.onclick=mostrarDiv5;
-     var bt6=document.getElementById("bt6");
-     bt6.onclick=mostrarDiv6;
-     var bt7=document.getElementById("bt7");
-     bt7.onclick=mostrarDiv7;
+     var matricula=document.getElementById("matricula");
+     matricula.onclick=mostrarDiv1;
+     var trancamento=document.getElementById("trancamento");
+     trancamento.onclick=mostrarDiv2;
+     var transferencia=document.getElementById("transferencia");
+     transferencia.onclick=mostrarDiv3;
+     var jubilamento=document.getElementById("jubilamento");
+     jubilamento.onclick=mostrarDiv4;
+     var faltas=document.getElementById("faltas");
+     faltas.onclick=mostrarDiv5;
+     var notas=document.getElementById("notas");
+     notas.onclick=mostrarDiv6;
+     var avaliacoes=document.getElementById("avaliacoes");
+     avaliacoes.onclick=mostrarDiv7;
 
      div1.classList.add("escondido");
      div2.classList.add("escondido");
