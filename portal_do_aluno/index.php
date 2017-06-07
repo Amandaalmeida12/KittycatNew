@@ -3,6 +3,7 @@ include("header.php");
 ?>
 <script type="text/javascript">
    $(document).ready(function(){
+         
          $('#Matricula').click(function(event){
             event.preventDefault();
             $("#div1").hide("slow");

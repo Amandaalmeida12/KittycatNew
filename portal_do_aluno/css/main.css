@@ -2,24 +2,106 @@
  margin:0;
  padding:0;
  }
- header{
-   width:66%;
-   padding-left:17%;
-   padding-right:17%;
-   height: 121px;
-   background:#137b25;
-   box-shadow: #00420c;
+ 
+ .container {
+    width: 100%;
+}
+.navbar-default{
+  background:#00420c;
+  font-size: 16px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:green;
+    background-color: white;
+}
+
+.container {
+    padding-right: 50px;
+    padding-left: 17%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #137b25;
+    min-height: 120px;
+}
+.container-fluid {
+    margin-left:230px;
+    background: #00420c;
+}
+.formulario{
+   width:19%;
+   float:right;
+   position: absolute;
+   right: 9%;;
+   top:1%;
+   
  }
- .cabecalho{
+ h1{
+  font-size: 3em;
+ }
+ a.link1:link{
+   color:white;
+   text-decoration:none;
+ }
+ a.link1:visited{
+   color:#fff;;
+   text-decoration:none;
+   
+ }
+ a.link1:hover{
+   color:#fff;
+   text-decoration:none;
+   
+ }
+ a.link1:active{
+ color:#fff;
+ text-decoration:none;
+ }
+ .container {
    color:#fff;
    margin:0px;
+   line-height: 1em;
  
  }
- .cabecalho ul{
+ .container  ul{
    
    
  }
- .cabecalho ul li{
+ .container  ul li{
+  display:list-item;
+  font-family: "open_sansextrabold", Arial, Helvetica, sans-serif;
+  color:#fff;
+  display:inline-block;
+ 
+ }
+ .container li.over ul{display:block;}
+  .portal{
+   margin: 17px;
+   margin: 0 4px;
+   color: #fff;
+   font-size: 3em;
+   font-family: "open_sansextrabold", Arial, Helvetica, sans-serif;
+ 
+   line-height: 1em;
+   text-align:left;
+ }
+ .navbar-nav{
+  margin-left:2px;
+ 
+}
+.navbar {
+    position: relative;
+ 
+    margin-bottom: 20px;
+    border: 0px solid transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+  ul{
+   
+   
+ }
+  ul li{
   display:list-item;
   font-family: "open_sansextrabold", Arial, Helvetica, sans-serif;
   color:#fff;
@@ -46,69 +128,7 @@
    top:1%;
    
  }
- a.link1:link{
-   color:white;
-   text-decoration:none;
- }
- a.link1:visited{
-   color:#fff;;
-   text-decoration:none;
-   
- }
- a.link1:hover{
-   color:#fff;
-   text-decoration:none;
-   
- }
- a.link1:active{
- color:#fff;
- text-decoration:none;
- }
- #opcoes {
-   width:66%;
-   padding-left:17%;
-   padding-right:17%;
-   list-style:none;
-   
-   float:left;
-   background:#00420c;
- }
- #opcoes ul li{
- position:relative; 
- float:left; 
- color:#fff;
- display:list-item;
-  font-family: "open_sansextrabold", Arial, Helvetica, sans-serif;
-  color:#fff;
-  display:inline-block;
- 
- }
- #opcoes li a{
-   color:#fff;
-    text-decoration:none; 
-    padding:5px 10px; 
-    display:block;
-   }
- #opcoes li a:hover{
- background:#00420c;; 
- color:#fff; 
- 
- 
- }
- #opcoes li  ul{
- position:absolute; 
- top:25px; 
- left:0;
- background-color:#00420c; 
- display:none;
- 
- }
- #opcoes li:hover ul, .cabecalho li.over ul{display:block;}
- #opcoes  li ul li{
- border:1px solid #00420c;; 
- display:block; 
- width:150px;
- } 
+
  section{
   
    width: 66%;
@@ -225,48 +245,26 @@ text-decoration:underline;
  color:black;
  text-decoration:underline;
  }
-[class^="fa-"]:before {
-  content: " ";
-  width:10px; height:10px;
-  display:inline-block;
-  vertical-align:middle;
-  position: right;
-}
+osition: right;
+
 #div_horarios{
 
   position: relative;
   top:500px;
 }
-footer{
-position: fixed;
-left: 0;
-right: 0;
-width: 100%;
-height: 30%;
-top: 80%;
-background:#00420c;
-color:#fff;
-width:66%;
-padding-left:17%;
-padding-right:17%;
-font-family: inherit;
-font-size: 18px;
-  
+.navbar-fixed-bottom {
+    bottom: 0;
+    top: 80%;
+    border-width: 1px 0 0;
+    min-height: 20%;
+    color: white;
 }
-.footer-p{
-  position: relative;
-  width: 360px;
-  height: 200px;
-  top:2px;
-
-}
-  
-  .font-awesome{
+.font-awesome{
     position: fixed;
-    top:85%;
+    top:80%;
     left:810px;
     width: 300px;
-    height: 300px;
+    height: 250px;
     font-size:30px;
 
   } 
@@ -280,13 +278,47 @@ font-size: 18px;
   .fa-instagram{
     color: #fff;
   }
-  .fa-user-circle,.fa-calendar,.fa-keyboard-o,.fa-envelope,.fa-unlock-alt{
-    position: absolute;
-     padding: 9px 10px ;
-     font-size: 50px;
+  .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+    height: 30px;
+    padding: 10px 16px;
 
-
-  }
-placeholder{
-  
+    line-height: 1.3333333;
+    border-radius: 6px;
 }
+.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 11px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+    height: 4px;
+    padding: 10px 16px;
+    font-size: 10px;
+ 
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 11;
+    font-weight: 100;
+    line-height: 1.42857143;
+   
+    margin-left: 200;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+

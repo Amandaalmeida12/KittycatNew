@@ -1,4 +1,4 @@
-#nome,#Matricula{
+#nome{
 	width: 100%;
 	padding: 12px 20px;
 	display: inline-block;
@@ -6,15 +6,8 @@
 	border-radius: 4px;
 	box-sizing: border-box;
 }
-#MATRICULA{
-	width: 100%;
-	padding: 2px 2px;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
 
-}
+
 
 
 #data_de_nascimento{
