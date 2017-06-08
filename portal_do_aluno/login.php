@@ -12,5 +12,6 @@
     </span>
     <input class="form-control" type="password" name="senha" placeholder="Senha">
   </div>
-  <button type="button" class="btn" >Entrar</button>
+     <a href="formulario.php"  class ="link1">Cadastre-se</a>
+    <button type="button" class="btn" >Entrar</button>
 </form>      
