@@ -9,6 +9,7 @@
 .navbar-default{
   background:#00420c;
   font-size: 16px;
+
 }
 .navbar-default .navbar-nav>li>a:hover {
     color:green;
@@ -24,9 +25,17 @@
     min-height: 120px;
 }
 .container-fluid {
+
     margin-left: 220px;
     background: #00420c;
 }
+
+.container-rodape{
+    margin-top:22px;
+    margin-left: 220px;
+    background: #00420c;
+}
+
 .formulario{
    width:19%;
    float:right;
@@ -37,6 +46,7 @@
  }
  h1{
   font-size: 3em;
+ 
  }
  a.link1:link{
    color:white;
@@ -98,7 +108,7 @@
     color: white;
 }
   ul{
-   
+   margin-top:21px;
    
  }
   ul li{
@@ -264,24 +274,29 @@ text-decoration:underline;
     min-height: 20%;
     color: white;
 }
-.font-awesome{
-    position: fixed;
-    top:80%;
-    left:810px;
-    width: 300px;
-    height: 250px;
-    font-size:30px;
 
-  } 
+
    .fa-facebook-official{
     color: #fff;
+    position: fixed;
+    top:85%;
+    left:800px;
+    font-size:70px;
+
   }
   .fa-map-marker{
     color: #fff;
-
+    position: fixed;
+    top:85%;
+    left:890px;
+    font-size:72px;
   }
   .fa-instagram{
     color: #fff;
+    position: fixed;
+    top:85%;
+    left:960px;
+    font-size:72px;
   }
   .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
     height: 30px;

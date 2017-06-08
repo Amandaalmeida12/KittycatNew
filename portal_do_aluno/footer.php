@@ -1,5 +1,5 @@
 <footer class="navbar-default navbar-fixed-bottom">
-  <div class="container-fluid">
+  <div class="container-rodape">
     Instituto Federal de Pernambuco<br>
   <i class="fa fa-graduation-cap"></i>  Campus Igarassu <br>
   <i class="fa fa-phone"></i> Telefone:(81) 3334-3508<br>
