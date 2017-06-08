@@ -36,16 +36,16 @@
 
     session_start();
     
-    if(!isset($_SESSION['matriculas'])){
+    if(!isset($_SESSION['usuarios'])){
       include "login.php";
      
     }else{
-      include "pagina_usuario.php";
+      include "logado.php";
       
     }
 
    
-   ?>                                  
+   ?>                             
   
 </div>
 <nav class="navbar navbar-default">

@@ -1,19 +1,18 @@
 <?php
 
-    $dbName = 'portal_aluno_db';
-    $host = 'localhost';
-    $user = 'root';
+   require_once 'conexao.php';
 
-    $dsn = "mysql:dbname=$dbName;host=$host";
-
-    $pdo = new PDO($dsn, $user);
-
-    $matricula = $_POST['matricula'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
     
-    $ret = $pdo->query("SELECT * FROM users WHERE matricula = '$matricula' ");
+    $senha = sha1($senha);
+
+    
+    $ret = $pdo->query("SELECT * FROM users WHERE email = '$email' AND senha = '$senha' ");
     $result = $ret->fetchAll();
-    if (count($result) > 0) {
-        echo"<script language='javascript' type='text/javascript'>alert('Bem-Vindo!');window.location.href='../pagina_usuario.php';</script>";
+    if($result[0]['senha'] == $senha){
+        $_SESSION['usuario'] = $email;
+        echo"<script language='javascript' type='text/javascript'>alert('Bem-Vindo!');window.location.href='logado.php';</script>";
         die();
 
     } else {
