@@ -24,7 +24,7 @@
     min-height: 120px;
 }
 .container-fluid {
-    margin-left:230px;
+    margin-left: 220px;
     background: #00420c;
 }
 .formulario{
@@ -121,12 +121,12 @@
    text-align:left;
  }
  .formulario{
-   width:10%;
+ 
    float:right;
    position: absolute;
-   right: 9%;;
+   right: 4%;
    top:1%;
-   
+   width: 15%;
  }
 
  section{
@@ -245,12 +245,17 @@ text-decoration:underline;
  color:black;
  text-decoration:underline;
  }
-osition: right;
+.navbar {
+    position: relative;
+ 
+    border: 0px solid transparent;
+     border-radius: 0px;
+}
 
 #div_horarios{
 
   position: relative;
-  top:500px;
+  margin-top:600px;
 }
 .navbar-fixed-bottom {
     bottom: 0;
@@ -306,7 +311,7 @@ osition: right;
     font-weight: 100;
     line-height: 1.42857143;
    
-    margin-left: 200;
+    margin-left: 190px;
     white-space: nowrap;
     vertical-align: middle;
     -ms-touch-action: manipulation;
@@ -319,6 +324,11 @@ osition: right;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    color: black;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: white;
+    text-decoration: none;
 }
 
 

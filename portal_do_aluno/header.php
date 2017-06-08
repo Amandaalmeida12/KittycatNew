@@ -1,8 +1,10 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="./bootstrap/js/bootstrap.min.js"></script>
   <script src="../bootstrap/js/bootstrap.min.js"></script>
   <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -30,24 +32,20 @@
     <h1 class ="portal" ><a href="http://www.ifpe.edu.br" class ="link1">Instituto Federal  de Pernambuco</a></h1>
     <li>Campus Igarassu</li>
   </ul>
-  <form  class="formulario" method="POST" action="./formularios/conecta.php" >
-   <div class="input-group input-group">
-  <span class="input-group-addon">
-    <span class="glyphicon glyphicon-envelope"></span>
-  </span>
-  <input class="form-control" type="text"  name="email" placeholder="Email">
-</div>
-<br>
-<div class="input-group input-group">
-  <span class="input-group-addon">
-    <span class="glyphicon glyphicon-lock"></span>
-  </span>
-  <input class="form-control" type="password" name="senha" placeholder="Senha">
-</div>
+  <?php
 
-  <button type="button" class="btn" >Entrar</button>
+    session_start();
     
-  </form>                                         
+    if(!isset($_SESSION['matriculas'])){
+      include "login.php";
+     
+    }else{
+      include "pagina_usuario.php";
+      
+    }
+
+   
+   ?>                                  
   
 </div>
 <nav class="navbar navbar-default">
