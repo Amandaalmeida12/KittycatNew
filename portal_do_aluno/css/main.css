@@ -31,7 +31,7 @@
 }
 
 .container-rodape{
-    margin-top:22px;
+    margin-top:35px;
     margin-left: 220px;
     background: #00420c;
 }
@@ -226,13 +226,11 @@ border-collapse: collapse;
 text-align:center;
 font-size:16px;
 }
-.cadastro{
-border: 2px solid white;
-margin: auto;
-border-collapse: collapse;
-text-align:center;
-font-size:16px;
+#cadastro{
+  width:670px;
+  font-size:40px;
 }
+
 .materiais{
 text-align: center;
 font-size: 35px;
@@ -279,24 +277,24 @@ text-decoration:underline;
    .fa-facebook-official{
     color: #fff;
     position: fixed;
-    top:85%;
-    left:800px;
-    font-size:70px;
+    top:87%;
+    left:900px;
+    font-size:50px;
 
   }
   .fa-map-marker{
     color: #fff;
     position: fixed;
-    top:85%;
-    left:890px;
-    font-size:72px;
+    top:87%;
+    left:970px;
+    font-size:50px;
   }
   .fa-instagram{
     color: #fff;
     position: fixed;
-    top:85%;
-    left:960px;
-    font-size:72px;
+    top:87%;
+    left:1020px;
+    font-size:50px;
   }
   .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
     height: 30px;
