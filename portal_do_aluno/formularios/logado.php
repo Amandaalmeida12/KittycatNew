@@ -7,20 +7,15 @@ include("../header.php");
 <?php 
 require_once 'conexao.php';
 
-@session_start();
+$email = $_POST['email'];
+ $ret = $pdo->query("SELECT * FROM users WHERE email = '$email' ");
+ $result = $ret->fetchAll();
+ if($result[0]['senha'] == $senha){
+        $_SESSION['usuario'] = $email;
+       echo $email;
+   }
+   ?>
 
-if (isset($_SESSION['usuario'])) {
-	
-
-$loggedUser = $_SESSION['usuario'];
-
-
-$logado = $pdo->query("SELECT * FROM users WHERE email = '$loggedUser'" );
-$fetch = $logado->fetchAll();
-
-}
-
- ?>
 <?php
    include("../footer.php");
 ?>
