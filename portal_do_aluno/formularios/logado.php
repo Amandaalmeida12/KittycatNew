@@ -1,8 +1,9 @@
  <?php
 include("../header.php");
 ?>
-<a href="deslogar.php">Log Out</a>
-
+<div class="deslogar" >
+<a href="deslogar.php" class ="link1">Sair</a>
+</div>
 <?php 
 require_once 'conexao.php';
 

@@ -1,14 +1,7 @@
 <?php
 include("header.php");
 ?>
-<script type="text/javascript">
-  $("#matricula").click(function(){
-    $("#modal-mensagem").modal();
-});
-  $("#trancamento").click(function(){
-    $("#trancamento").modal();
-});
-</script>
+
         
 <section>
   

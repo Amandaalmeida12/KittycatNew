@@ -27,7 +27,7 @@
      <label id="legenda">Matrícula:</label>
      <div class="iconInput">
      <i class="fa fa-keyboard-o" aria-hidden="true"></i>
-     <input type="text" name="matricula" id="matricula"><br>
+     <input type="text" name="matricula" id="c_matricula"><br>
      </div>
      <br>
 

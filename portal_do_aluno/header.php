@@ -15,11 +15,9 @@
   <link rel="stylesheet" type="text/css" href="../css/forms.css">
   <link rel="stylesheet" type="text/css" href="./css/css_balls.css">
   <link rel="stylesheet" type="text/css" href="../css/css_balls.css">
-  <link rel="stylesheet" type="text/css" href="./css/panels.css">
-  <link rel="stylesheet" type="text/css" href="../css/panels.css">
-  <script src="./css/panels.js"></script>
-  <script src="../css/panels.js"></script>
   
+
+ 
 
 
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -40,7 +38,7 @@
       include "login.php";
      
     }else{
-      include "logado.php";
+      include "./formularios/logado.php";
       
     }
 
