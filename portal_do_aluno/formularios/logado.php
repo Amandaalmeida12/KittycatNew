@@ -16,7 +16,7 @@ $loggedUser = $_SESSION['usuario'];
 
 
 $logado = $pdo->query("SELECT * FROM users WHERE email = '$loggedUser'" );
-$fetch = $ler->fetchAll();
+$fetch = $logado->fetchAll();
 
 }
 
