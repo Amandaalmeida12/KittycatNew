@@ -1,21 +1,25 @@
- <?php
-include("../header.php");
-?>
-<div class="deslogar" >
-<a href="deslogar.php" class ="link1">Sair</a>
-</div>
-<?php 
+
+
+
+<?php include("../header.php");?>
+<?php
 require_once 'conexao.php';
 
-$email = $_POST['email'];
- $ret = $pdo->query("SELECT * FROM users WHERE email = '$email' ");
- $result = $ret->fetchAll();
- if($result[0]['senha'] == $senha){
-        $_SESSION['usuario'] = $email;
-       echo $email;
-   }
-   ?>
+@session_start();
 
-<?php
-   include("../footer.php");
+if (isset($_SESSION['usuario'])) {
+	
+
+$loggedUser = $_SESSION['usuario'];
+ 
+$logado = $pdo->query("SELECT * FROM users WHERE email = '$loggedUser'" );
+$fetch = $logado->fetchAll(); 
+
+header("location:conecta.php");
+
+
+}
+
 ?>
+<?php include("../footer.php");?>
+

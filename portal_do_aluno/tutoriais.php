@@ -1,6 +1,9 @@
    <?php
 include("header.php");
+@session_start();
+
 ?>
+
      <section>
          <h1>Tutoriais</h1>
          <br>

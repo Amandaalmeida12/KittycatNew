@@ -2,6 +2,6 @@
 
 session_start();
 
-unset($_SESSION['usuarios']);
+session_destroy();
 header("location:../index.php");
  ?>
