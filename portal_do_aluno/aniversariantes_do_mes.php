@@ -6,7 +6,7 @@ require_once('./formularios/conexao.php');
 ?>
 <?php
 $data_de_nascimento='data_de_nascimento';
-$ret=$pdo->query("SELECT * FROM users where MONTH(data_de_nascimento) = MONTH(NOW())");
+$ret=$pdo->query("SELECT * FROM users where  MONTH(data_de_nascimento) = MONTH(NOW()) ORDER BY data_de_nascimento ");
 
 
 ?>
