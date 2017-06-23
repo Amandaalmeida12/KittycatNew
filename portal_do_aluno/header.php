@@ -49,11 +49,11 @@ if (isset($_SESSION["usuario"])){
   <div class="container-fluid">
     <ul class="nav navbar-nav">
       
-     <li><a href='index.php'><i class="fa fa-home" aria-hidden="true" "></i> Inicio</a></li>
-     <li><a href='../tutoriais.php'><i class="fa fa-pencil" aria-hidden="true"></i> Tutoriais</a></li>
-     <li><a href='../wiki.php'><i class="fa fa-wordpress" aria-hidden="true"></i> Mediawiki</a></li>
-     <li><a href='../usuarios_cadastrados.php'><i class="fa fa-user" aria-hidden="true"></i> Usuários Cadastrados</a></li>
-     <li><a href='../aniversariantes_do_mes.php'><i class="fa fa-user" aria-hidden="true"></i> Aniversariantes do Mês</a></li>
+     <li><a href='portal_do_aluno/index.php'><i class="fa fa-home" aria-hidden="true" "></i> Inicio</a></li>
+     <li><a href='/tutoriais.php'><i class="fa fa-pencil" aria-hidden="true"></i> Tutoriais</a></li>
+     <li><a href='/wiki.php'><i class="fa fa-wordpress" aria-hidden="true"></i> Mediawiki</a></li>
+     <li><a href='/usuarios_cadastrados.php'><i class="fa fa-user" aria-hidden="true"></i> Usuários Cadastrados</a></li>
+     <li><a href='./aniversariantes_do_mes.php'><i class="fa fa-user" aria-hidden="true"></i> Aniversariantes do Mês</a></li>
     </ul>
   </div>
 </nav>

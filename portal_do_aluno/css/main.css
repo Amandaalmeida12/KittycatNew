@@ -206,7 +206,7 @@
 #celula1 a:hover {
 color:black;
 }
-.disciplinas table,tr,td{
+table, tr, td.disciplinas{
 border: 2px solid green;
 margin: auto;  
 border-collapse: collapse;
@@ -347,10 +347,4 @@ text-decoration:underline;
   width: 15%;
   color:white;
   
-}
-.table > thead > tr > th {
-    vertical-align: bottom;
-    border: 2px solid green;
-    text-align: center;
-   
 }

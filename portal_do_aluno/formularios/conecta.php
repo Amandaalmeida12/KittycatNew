@@ -13,7 +13,7 @@ $email = $_POST['email'];
  <div class="deslogar" ><a href="deslogar.php" class ="link1">Sair</a></div>
 <?php
 }else{
-  echo"<script language='javascript' type='text/javascript'>alert('Senha ou login incorretos!');window.location.href='../index.php';</script>";
+ 
 
 }
 ?>
