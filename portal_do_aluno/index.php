@@ -25,7 +25,7 @@ include("header.php");
       
     </div>
   </div>
-  <?php include ("login.php");?>
+ 
 </div>
  <button type="button" id="trancamento" class="bolhaP" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Trancamento</button>
   <div class="modal fade" id="myModal1" role="dialog">

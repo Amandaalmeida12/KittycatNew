@@ -10,7 +10,7 @@ $ret=$pdo->query("SELECT * FROM users where MONTH(data_de_nascimento) = MONTH(NO
 
 
 ?>
- <h2 align="center">Usuários Cadastrados</h2>
+ <h2 align="center">Aniversariantes</h2>
 	<table border="1">
 	<tr>
 		<th width="5%" height="5%">Nome</th>

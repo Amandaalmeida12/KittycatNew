@@ -8,10 +8,11 @@ $email = $_POST['email'];
  $result = $ret->fetchAll();
  if($result[0]['senha'] == $senha){
  $_SESSION['usuario'] = $email;
-  $_SESSION['timeout']=time(); ?>
-  <div class="nome_user"><i class="fa fa-user" aria-hidden="true"></i><?php echo $email;?></div>
- <div class="deslogar" ><a href="deslogar.php" class ="link1">Sair</a></div>
-<?php
+   $tempolimite=10;
+   $_SESSION['registro'] = time();
+   $_SESSION['limite']=$tempolimite;
+  header("location:../pagina_usuario.php");
+  
 }else{
  
 
