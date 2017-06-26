@@ -348,3 +348,12 @@ text-decoration:underline;
   color:white;
   
 }
+.user_timeout{
+  float: right;
+  position: absolute;
+  right: 7%;
+  top: 1%;
+  width: 18%;
+  color:white;
+  
+}

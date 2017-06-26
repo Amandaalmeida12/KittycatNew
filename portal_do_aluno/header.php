@@ -7,30 +7,12 @@ if (!isset($_SESSION)) {
 
 if (!isset($_SESSION["usuario"])) {
   include "login.php";
-}else{
-
-  ?>
-    
+}else { ?>
     <div class="nome_user"><i class="fa fa-user" aria-hidden="true"></i><?php echo $_SESSION["usuario"];?></div>
- <div class="deslogar" ><a href="./formularios/deslogar.php" class ="link1">Sair</a></div>
-  <?php
-
-  }
- 
- if(!isset($_SESSION['usuario'])) { // se não tiver pego tempo que logou
-    $_SESSION['usuario'] = time(); //pega tempo que logou
-    // adiciona 30 segundos ao tempo e grava em outra variável de sessão
-    $_SESSION['logout_time'] = $_SESSION['usuario'] + 30; 
-}
-
-// se o tempo atual for maior que o tempo de logout
-if(time() >= $_SESSION['logout_time']) { 
-    header("location:./formularios/deslogar.php"); //vai para logout
-    session_destroy();
-} else {
-    $red = $_SESSION['logout_time'] - time(); // tempo que falta
-    echo "Início de sessão: ".$_SESSION['usuario']."<br>";
-    echo "Redirecionando em ".$red." segundos.<br>";
+    
+     <div class="deslogar" ><a href="./formularios/deslogar.php" class ="link1">Sair</a></div>
+  
+<?php
 }
  
  
@@ -41,6 +23,12 @@ if(time() >= $_SESSION['logout_time']) {
  <head>
  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="../js/jquery.js"></script>
+  <script type="text/javascript" src="./js/functions.js"></script>
+  <script type="text/javascript" src="../js/functions.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/calendario.css">
+  <link rel="stylesheet" type="text/css" href="../css/calendario.css">
 
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
