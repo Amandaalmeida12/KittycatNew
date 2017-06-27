@@ -10,7 +10,7 @@ function montaEventos($info){
 	 $data_de_nascimento = $info['data_de_nascimento'];
 	 $now=date('Y-m-d');
 
-	 $eventos=$pdo->prepare("SELECT * FROM users WHERE '".$data_de_nascimento."' >= NOW() ");
+	 $eventos=$pdo->prepare("SELECT * FROM users WHERE '".$data_de_nascimento."' >= NOW()");
 	 $eventos->execute();
 	 $retorno=array(); 
 	 while ($row =$eventos->fetchObject()) {
@@ -109,18 +109,21 @@ function montaCalendario($eventos=array()){
 				$dataNow=num($numero);
 				$date=date('Y').'-'.$month.'-'.$dataNow;
 				if (in_array($date, array_keys($eventos))) {
-					$eventos=$eventos[$date];
-					echo '<td class="eventos"><a href="#aniversariantes" class ="link1" id="horarios">'.$numero.'</a></td>';?>
-					<div a name="aniversariantes">
-                      <div class="modal fade" id="myModal5" role="dialog">
+					$evento=$eventos[$date];
+					echo '
+    <td class="eventos"  title="'.$evento['data_de_nascimento'].'" type="button"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">'.$numero.'</td>';?>
+    
+    
+    	
+  <div class="modal fade" id="myModal5" role="dialog">
     <div class="modal-dialog">
      <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Da Aprovação</h4>
+          <h4 class="modal-title">Aniversariantes</h4>
         </div>
         <div class="modal-body">
-          <p>Estará bem aprovado no curso ,o estudante que obtiver frequência igual ou superior a 75%  em cada componente  curricular e média 6,0 (seis) em cada componente curricular que acompanha  a matriz do curso.</p>
+          <p><?= $evento['nome'];?></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
@@ -131,7 +134,6 @@ function montaCalendario($eventos=array()){
   </div>
   
 </div>
-					</div>
 
 
 					<?php

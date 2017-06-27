@@ -1,6 +1,8 @@
 .calendario{
-	margin: 40px;
-	width: 350px;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 66%;
 	background: white;
 	font-size: 14px;
 	text-align: center;
@@ -32,6 +34,7 @@
 }
 .calendario .mes_title td{
 	background:#069;
+	text-align: center;
 
 
 }
@@ -55,13 +58,13 @@
 	background: linear-gradient(to bottom ,#ccc,#fff 130%);
 }
 .calendario #volta{
-	left: -1px;
-	top:-1px;
+	left: -2px;
+	top:-2px;
 	
 
 }
 .calendario #vai{
-	right: -1px;
-	top: -1px;  
+	right: -2px;
+	top: -2px;  
 }
 

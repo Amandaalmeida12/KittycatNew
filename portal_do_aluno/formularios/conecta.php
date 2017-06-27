@@ -7,18 +7,15 @@ $email = $_POST['email'];
  $ret = $pdo->query("SELECT * FROM users WHERE email = '$email' AND senha = '$senha' ");
  $result = $ret->fetchAll();
  if($result[0]['senha'] == $senha){
- $_SESSION['usuario'] = $email;
-   $tempolimite=10;
-   $_SESSION['registro'] = time();
-   $_SESSION['limite']=$tempolimite;
+    $_SESSION['usuario'] = $email;
   header("location:../pagina_usuario.php");
-  
-}else{
-echo"<script language='javascript' type='text/javascript'>alert('Email ou senha incorretos!');window.location.href='../index.php';</script>";
+    die();
  
-
+} else {
+    echo"<script language='javascript' type='text/javascript'>alert('Email ou senha incorretos!');window.location.href='../index.php';</script>";
 }
-?>
-<?php 
+
+
+
 include ("../footer.php");
 ?>

@@ -7,9 +7,8 @@ require_once 'conexao.php';
 
 @session_start();
 
-if (isset($_SESSION['usuario']) && (time() - $_SESSION['usuario'] > 1000)) {
-	session_unset();    
-    session_destroy(); 
+if (isset($_SESSION['usuario'])) {
+	
 
 $loggedUser = $_SESSION['usuario'];
  
@@ -20,7 +19,6 @@ header("location:conecta.php");
 
 
 }
-$_SESSION['usuario'] = time();
 ?>
 <?php include("../footer.php");?>
 

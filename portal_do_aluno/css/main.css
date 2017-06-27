@@ -206,7 +206,7 @@
 #celula1 a:hover {
 color:black;
 }
-table, tr, td.disciplinas{
+.disciplinas{
 border: 2px solid green;
 margin: auto;  
 border-collapse: collapse;
@@ -354,6 +354,15 @@ text-decoration:underline;
   right: 7%;
   top: 1%;
   width: 18%;
+  color:white;
+  
+}
+#tempo{
+  float: right;
+  position: absolute;
+  right: 7%;
+  top: 1%;
+  width: 20%;
   color:white;
   
 }

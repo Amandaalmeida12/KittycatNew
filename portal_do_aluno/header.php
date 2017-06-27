@@ -1,23 +1,16 @@
 <html>
 <?php
-
-if (!isset($_SESSION)) {
-  session_start();
-}
-
+session_start();
 if (!isset($_SESSION["usuario"])) {
-  include "login.php";
-}else { ?>
+    include "login.php";
+  }else { 
+    include "./cronometro/cronometro.js";
+  ?> 
+    <div id="tempo">00:00:00</div> 
     <div class="nome_user"><i class="fa fa-user" aria-hidden="true"></i><?php echo $_SESSION["usuario"];?></div>
-    
-     <div class="deslogar" ><a href="./formularios/deslogar.php" class ="link1">Sair</a></div>
-  
+    <div class="deslogar" ><a href="./formularios/deslogar.php" class ="link1">Sair</a></div>
 <?php
-}
- 
- 
-
- 
+  }
 ?>
 
  <head>
@@ -29,7 +22,6 @@ if (!isset($_SESSION["usuario"])) {
   <script type="text/javascript" src="../js/functions.js"></script>
   <link rel="stylesheet" type="text/css" href="./css/calendario.css">
   <link rel="stylesheet" type="text/css" href="../css/calendario.css">
-
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -43,7 +35,8 @@ if (!isset($_SESSION["usuario"])) {
   <link rel="stylesheet" type="text/css" href="../css/forms.css">
   <link rel="stylesheet" type="text/css" href="./css/css_balls.css">
 </head>
-<body>
+<body onload="start();">
+
 
 <div class="container">
    <ul>

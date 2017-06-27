@@ -175,62 +175,62 @@ include("header.php");
          <br> 
          <br>
          <br>
-         <table  class="disciplinas" border="1">
-            <tr>
-               <th>HORÁRIO</th>
-               <th>SEGUNDA</th>
-               <th>TERÇA</th>
-               <th>QUARTA</th>
-               <th>QUINTA</th>
-               <th>SEXTA</th>
+         <table  class="disciplinas" >
+            <tr class="disciplinas">
+               <th class="disciplinas">HORÁRIO</th>
+               <th class="disciplinas">SEGUNDA</th>
+               <th class="disciplinas">TERÇA</th>
+               <th class="disciplinas">QUARTA</th>
+               <th class="disciplinas">QUINTA</th>
+               <th class="disciplinas">SEXTA</th>
             </tr>
-            <tr>
-               <td id="celula1">12:50h-13:35h</td>
-               <td id="celula1"><a href="ementas/seguranca.php"  class="link2">Segurança do Trabalho</a></td>
-               <td id="celula1"><a href="ementas/ingles.php"  class="link2">Inglês Instrumental</a></td>
-               <td id="celula1"><a href="ementas/fundamentos.php"  class="link2">Fundamentos da Informática</a></td>
-               <td id="celula1"> </td>
-               <td id="celula1"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">12:50h-13:35h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/seguranca.php"  class="link2">Segurança do Trabalho</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/ingles.php"  class="link2">Inglês Instrumental</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/fundamentos.php"  class="link2">Fundamentos da Informática</a></td>
+               <td id="celula1" class="disciplinas"> </td>
+               <td id="celula1" class="disciplinas"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
             </tr>
-            <tr>
-               <td id="celula1">13:35h-14:20h</td>
-               <td id="celula1"><a href="ementas/seguranca.php" class="link2">Segurança do Trabalho</a></td>
-               <td id="celula1"><a href="ementas/ingles.php" class="link2">Inglês Instrumental</a></td>
-               <td id="celula1"><a href="ementas/fundamentos.php" class="link2">Fundamentos da Informática</a></td>
-               <td id="celula1"><a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
-               <td id="celula1"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">13:35h-14:20h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/seguranca.php" class="link2">Segurança do Trabalho</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/ingles.php" class="link2">Inglês Instrumental</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/fundamentos.php" class="link2">Fundamentos da Informática</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
             </tr>
-            <tr>
-               <td id="celula1">14:20h-15:05h</td>
-               <td id="celula1"><a href="ementas/redes.php" class="link2"> Redes de Computadores</a></td>
-               <td id="celula1"><a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
-               <td id="celula1"><a href="ementas/fundamentos.php" class="link2">Fundamentos da Informática</a></td>
-               <td id="celula1"> <a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
-               <td id="celula1"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">14:20h-15:05h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/redes.php" class="link2"> Redes de Computadores</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/fundamentos.php" class="link2">Fundamentos da Informática</a></td>
+               <td id="celula1" class="disciplinas"> <a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
             </tr>
-            <tr>
-               <td id="celula1">15:25h-16:10h</td>
-               <td id="celula1"><a href="ementas/redes.php" class="link2"> Redes de Computadores</a></td>
-               <td id="celula1">Matemática-PROIFPE</td>
-               <td id="celula1"><a href="ementas/redes.php" class="link2"> Redes de Computadores</a></td>
-               <td id="celula1"><a href="ementas/portugues.php" class="link2">Português Instrumental</a> </td>
-               <td id="celula1"></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">15:25h-16:10h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/redes.php" class="link2"> Redes de Computadores</a></td>
+               <td id="celula1" class="disciplinas">Matemática-PROIFPE</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/redes.php" class="link2"> Redes de Computadores</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/portugues.php" class="link2">Português Instrumental</a> </td>
+               <td id="celula1" class="disciplinas"></td>
             </tr>
-            <tr>
-               <td id="celula1">16:10h-16:55h</td>
-               <td id="celula1"></td>
-               <td id="celula1"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
-               <td id="celula1"><a href="ementas/redes.php" class="link2"> Redes de Computadores</a></td>
-               <td id="celula1"><a href="ementas/portugues.php" class="link2">Português Instrumental</a> </td>
-               <td id="celula1"><a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">16:10h-16:55h</td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/redes.php" class="link2"> Redes de Computadores</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/portugues.php" class="link2">Português Instrumental</a> </td>
+               <td id="celula1" class="disciplinas"><a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
             </tr>
-            <tr>
-               <td id="celula1">16:55h-17:40h</td>
-               <td id="celula1"></td>
-               <td id="celula1"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
-               <td id="celula1"></td>
-               <td id="celula1"> </td>
-               <td id="celula1"><a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">16:55h-17:40h</td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/logica.php" class="link2">Lógica de Programação e <br>Estrutura de dados</a></td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"> </td>
+               <td id="celula1" class="disciplinas"><a href="ementas/matematica.php" class="link2">Matemática Aplicada</a></td>
             </tr>
          </table>
          <br> 
@@ -240,62 +240,62 @@ include("header.php");
          <br>
          <br> 
          <br>
-         <table  class="disciplinas" border="1">
-            <tr>
-               <th>HORÁRIO</th>
-               <th>SEGUNDA</th>
-               <th>TERÇA</th>
-               <th>QUARTA</th>
-               <th>QUINTA</th>
-               <th>SEXTA</th>
+         <table  class="disciplinas" >
+            <tr class="disciplinas">
+               <th class="disciplinas">HORÁRIO</th>
+               <th class="disciplinas">SEGUNDA</th>
+               <th class="disciplinas">TERÇA</th>
+               <th class="disciplinas">QUARTA</th>
+               <th class="disciplinas">QUINTA</th>
+               <th class="disciplinas">SEXTA</th>
             </tr>
-            <tr>
-               <td id="celula1">07:00h-07:45h</td>
-               <td id="celula1"></td>
-               <td id="celula1"></td>
-               <td id="celula1"></td>
-               <td id="celula1"></td>
-               <td id="celula1"></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">07:00h-07:45h</td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"></td>
             </tr>
-            <tr>
-               <td id="celula1">07:45h-08:30h</td>
-               <td id="celula1"></td>
-               <td id="celula1"><a href="ementas/desenvolvimento1.php"  class="link2">Desenvolvimento Web I</a></td>
-               <td id="celula1"><a href="ementas/segurancasistemas.php" class="link2">Segurança de Sistemas <br>para Internet</a></td>
-               <td id="celula1"><a href="ementas/poo.php" class="link2" >Programação Orientada<br>à Objetos</a> </td>
-               <td id="celula1"></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">07:45h-08:30h</td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/desenvolvimento1.php"  class="link2">Desenvolvimento Web I</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/segurancasistemas.php" class="link2">Segurança de Sistemas <br>para Internet</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/poo.php" class="link2" >Programação Orientada<br>à Objetos</a> </td>
+               <td id="celula1" class="disciplinas"></td>
             </tr>
-            <tr>
-               <td id="celula1">08:30h-09:15h</td>
-               <td id="celula1"><a href="ementas/desenvolvimento1.php"  class="link2">Desenvolvimento Web I</a></td>
-               <td id="celula1"><a href="ementas/desenvolvimento1.php" class="link2">Desenvolvimento Web I</a></td>
-               <td id="celula1"><a href= "ementas/segurancasistemas.php" class="link2">Segurança de Sistemas <br>para Internet</a></td>
-               <td id="celula1"><a href="ementas/poo.php" class="link2" > Programação Orientada<br>à Objetos</a></td>
-               <td id="celula1"><a href="ementas/projeto1.php"  class="link2">Projeto e Prática I</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">08:30h-09:15h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/desenvolvimento1.php"  class="link2">Desenvolvimento Web I</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/desenvolvimento1.php" class="link2">Desenvolvimento Web I</a></td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/segurancasistemas.php" class="link2">Segurança de Sistemas <br>para Internet</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/poo.php" class="link2" > Programação Orientada<br>à Objetos</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/projeto1.php"  class="link2">Projeto e Prática I</a></td>
             </tr>
-            <tr>
-               <td id="celula1">09:15h-10:00h</td>
-               <td id="celula1"><a href="ementas/desenvolvimento1.php" class="link2" >Desenvolvimento Web I</a></td>
-               <td id="celula1"><a href="ementas/sistemas.php" class="link2" >Sistemas Operacionais</a></td>
-               <td id="celula1"><a href="ementas/segurancasistemas.php"  class="link2">Segurança de Sistemas <br>para Internet</a></td>
-               <td id="celula1"><a href="ementas/poo.php" class="link2" >Programação Orientada<br>à Objetos</a></td>
-               <td id="celula1"><a href= "ementas/projeto1.php" class="link2">Projeto e Prática I</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">09:15h-10:00h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/desenvolvimento1.php" class="link2" >Desenvolvimento Web I</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/sistemas.php" class="link2" >Sistemas Operacionais</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/segurancasistemas.php"  class="link2">Segurança de Sistemas <br>para Internet</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/poo.php" class="link2" >Programação Orientada<br>à Objetos</a></td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/projeto1.php" class="link2">Projeto e Prática I</a></td>
             </tr>
-            <tr>
-               <td id="celula1">10:20-11:05h</td>
-               <td id="celula1"><a href="ementas/banco.php" class="link2">Banco de Dados</a></td>
-               <td id="celula1"><a href="ementas/sistemas.php" class="link2">Sistemas Operacionais</a></td>
-               <td id="celula1"><a href="ementas/etica.php" class="link2">Ética Pofissional<br>e Cidadania</a></td>
-               <td id="celula1"><a href= "ementas/banco.php" class="link2">Banco de Dados </a></td>
-               <td id="celula1"><a href="ementas/projeto1.php" class="link2">Projeto e Prática I</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">10:20-11:05h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/banco.php" class="link2">Banco de Dados</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/sistemas.php" class="link2">Sistemas Operacionais</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/etica.php" class="link2">Ética Pofissional<br>e Cidadania</a></td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/banco.php" class="link2">Banco de Dados </a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/projeto1.php" class="link2">Projeto e Prática I</a></td>
             </tr>
-            <tr>
-               <td id="celula1">11:05h-11:50h</td>
-               <td id="celula1"><a href="ementas/banco.php" class="link2">Banco de Dados</a></td>
-               <td id="celula1"><a href="ementas/sistema.php" class="link2">Sistemas Operacionais</a></td>
-               <td id="celula1"><a href="ementas/etica.php" class="link2">Ética Pofissional<br>e Cidadania</a></td>
-               <td id="celula1"><a href="ementas/banco.php" class="link2" >Banco de Dados</a> </td>
-               <td id="celula1"><a href="ementas/projeto1.php" class="link2" >Projeto e Prática I</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">11:05h-11:50h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/banco.php" class="link2">Banco de Dados</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/sistema.php" class="link2">Sistemas Operacionais</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/etica.php" class="link2">Ética Pofissional<br>e Cidadania</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/banco.php" class="link2" >Banco de Dados</a> </td>
+               <td id="celula1" class="disciplinas"><a href="ementas/projeto1.php" class="link2" >Projeto e Prática I</a></td>
             </tr>
          </table>
          <br> 
@@ -305,65 +305,65 @@ include("header.php");
          <br> 
          <br>
          <br>
-         <table  class="disciplinas" border="1">
-            <tr>
-               <th>HORÁRIO</th>
-               <th>SEGUNDA</th>
-               <th>TERÇA</th>
-               <th>QUARTA</th>
-               <th>QUINTA</th>
-               <th>SEXTA</th>
+         <table  class="disciplinas" >
+            <tr class="disciplinas">
+               <th class="disciplinas">HORÁRIO</th>
+               <th class="disciplinas">SEGUNDA</th>
+               <th class="disciplinas">TERÇA</th>
+               <th class="disciplinas">QUARTA</th>
+               <th class="disciplinas">QUINTA</th>
+               <th class="disciplinas">SEXTA</th>
             </tr>
-            <tr>
-               <td id="celula1">12:50h-13:35h</td>
-               <td id="celula1"><a href="ementas/Implantaçãoe.php"  class="link2">Implantação e Administração<br> de Serviços Web </a></td>
-               <td id="celula1">
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">12:50h-13:35h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/Implantaçãoe.php"  class="link2">Implantação e Administração<br> de Serviços Web </a></td>
+               <td id="celula1" class="disciplinas">
                   <a href= "ementas/projeto2.php" class="link2">
                   Projeto e Prática II</a>
                </td>
-               <td id="celula1"><a href= "ementas/Implantaçãoe.php" class="link2">Implantação e Administração<br> de Serviços Web </a></td>
-               <td id="celula1"><a href="ementas/engenharia.php" class="link2">Engenharia de Software</a></td>
-               <td id="celula1"></td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/Implantaçãoe.php" class="link2">Implantação e Administração<br> de Serviços Web </a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/engenharia.php" class="link2">Engenharia de Software</a></td>
+               <td id="celula1" class="disciplinas"></td>
             </tr>
-            <tr>
-               <td id="celula1">13:35h-14:20h</td>
-               <td id="celula1"><a href= "ementas/Implantaçãoe.php" class="link2">Implantação e Administração<br> de Serviços Web </a></td>
-               <td id="celula1"><a href="ementas/projeto2.php" class="link2" >Projeto e Prática II</a></td>
-               <td id="celula1"><a href="ementas/Implantaçãoe.php"  class="link2">Implantação e Administração<br> de Serviços Web </a></td>
-               <td id="celula1"><a href="ementas/engenharia.php"  class="link2">Engenharia de Software</a> </td>
-               <td id="celula1"><a href="ementas/desenvolvimento2.php" class="link2" >Desenvolvimento Web II</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">13:35h-14:20h</td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/Implantaçãoe.php" class="link2">Implantação e Administração<br> de Serviços Web </a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/projeto2.php" class="link2" >Projeto e Prática II</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/Implantaçãoe.php"  class="link2">Implantação e Administração<br> de Serviços Web </a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/engenharia.php"  class="link2">Engenharia de Software</a> </td>
+               <td id="celula1" class="disciplinas"><a href="ementas/desenvolvimento2.php" class="link2" >Desenvolvimento Web II</a></td>
             </tr>
-            <tr>
-               <td id="celula1">14:20h-15:05h</td>
-               <td id="celula1"><a href="ementas/engenharia.php" class="link2" >Engenharia de Software</a></td>
-               <td id="celula1"><a href="ementas/interacao.php" class="link2">Interação Humano-Computador</a></td>
-               <td id="celula1"><a href="ementas/Implantaçãoe.php" class="link2" >Implantação e Administração<br> de Serviços Web   </a></td>
-               <td id="celula1"><a href="ementas/desenvolvimento2.php" class="link2">Desenvolvimento Web II</a></td>
-               <td id="celula1"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">14:20h-15:05h</td>
+               <td id="celula1" class="disciplinas"><a href="ementas/engenharia.php" class="link2" >Engenharia de Software</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/interacao.php" class="link2">Interação Humano-Computador</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/Implantaçãoe.php" class="link2" >Implantação e Administração<br> de Serviços Web   </a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/desenvolvimento2.php" class="link2">Desenvolvimento Web II</a></td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</a></td>
             </tr>
-            <tr>
-               <td id="celula1">15:25h-16:10h</td>
-               <td id="celula1"><a href= "ementas/engenharia.php" class="link2">Engenharia de Software</a></td>
-               <td id="celula1"><a href= "ementas/interacao.php" class="link2">Interação Humano-Computador</a></td>
-               <td id="celula1"><a href="ementas/empreendedorismo.php"  class="link2">Empreendedorismo</a></td>
-               <td id="celula1"><a href="ementas/desenvolvimento2.php" class="link2" >Desenvolvimento Web II</a></td>
-               <td id="celula1"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</a></td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">15:25h-16:10h</td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/engenharia.php" class="link2">Engenharia de Software</a></td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/interacao.php" class="link2">Interação Humano-Computador</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/empreendedorismo.php"  class="link2">Empreendedorismo</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/desenvolvimento2.php" class="link2" >Desenvolvimento Web II</a></td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</a></td>
             </tr>
-            <tr>
-               <td id="celula1">16:10h-16:55h</td>
-               <td id="celula1"></td>
-               <td id="celula1"><a href="ementas/interacao.php" class="link2">Interação Humano-Computador</a></td>
-               <td id="celula1"><a href="ementas/empreendedorismo.php" class="link2" >Empreendedorismo</a></td>
-               <td id="celula1"></td>
-               <td id="celula1"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">16:10h-16:55h</td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/interacao.php" class="link2">Interação Humano-Computador</a></td>
+               <td id="celula1" class="disciplinas"><a href="ementas/empreendedorismo.php" class="link2" >Empreendedorismo</a></td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</td>
             </tr>
-            <tr>
-               <td id="celula1">16:55h-17:40h</td>
-               <td id="celula1"></td>
-               <td id="celula1"></td>
-               <td id="celula1"></td>
-               <td id="celula1"> </td>
-               <td id="celula1"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</td>
+            <tr class="disciplinas">
+               <td id="celula1" class="disciplinas">16:55h-17:40h</td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"></td>
+               <td id="celula1" class="disciplinas"> </td>
+               <td id="celula1" class="disciplinas"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</td>
             </tr>
          </table>
   </div>      
