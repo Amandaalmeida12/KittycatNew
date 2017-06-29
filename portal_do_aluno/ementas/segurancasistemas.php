@@ -5,24 +5,24 @@ include("../header.php");
         
       <section>
          <h1>Segurança de Sistemas para Internet</h1>
-         <table class="conteudos_disciplinas" border="1"  >
+         <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente Curricular: Segurança de Sistemas para Internet</th>
-               <th>Professor(a): Ramon</th>
+               <th class="disciplinas"> Componente Curricular: Segurança de Sistemas para Internet</th>
+               <th class="disciplinas">Professor(a): Ramon</th>
             </tr>
             <tr>
-               <th>Período: 2º </th>
-               <th>Carga Horária: 45h</th>
+               <th class="disciplinas">Período: 2º </th>
+               <th class="disciplinas">Carga Horária: 45h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">Competências</th>
+               <th class="disciplinas" colspan="2" id="celula1">Competências</th>
             </tr>
             <td colspan="2" id="celula1">1. Planejar, instalar e configurar procedimentos e técnicas de segurança em redes de
                computadores de pequeno e médio porte.
             </td>
             <br>
             <tr>
-               <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -142,7 +142,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">CAMPOS, André L. N. Sistema de segurança da informação. Florianópolis: Visual Books, 2007.
@@ -154,7 +154,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">

@@ -5,17 +5,17 @@ include("../header.php");
         
       <section>
          <h1>Matemática Aplicada</h1>
-        <table class="conteudos_disciplinas" border="1"  >
+        <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente Curricular: Matematica Aplicada </th>
-               <th>Professor(a): Cícero</th>
+               <th class="disciplinas"> Componente Curricular: Matematica Aplicada </th>
+               <th class="disciplinas">Professor(a): Cícero</th>
             </tr>
             <tr>
-               <th>Período: 1º </th>
-               <th>Carga Horária: 60h</th>
+               <th class="disciplinas">Período: 1º </th>
+               <th class="disciplinas">Carga Horária: 60h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">Competências</th>
+               <th class="disciplinas" colspan="2" id="celula1">Competências</th>
             </tr>
             <td colspan="2" id="celula1">
                1. Resolver operações com conjuntos e utilizar a álgebra das proposições;
@@ -34,7 +34,7 @@ include("../header.php");
             </td>
             <br>
             <tr>
-               <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -54,7 +54,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">1. IEZZI, G.; MURAKAMI, C. Fundamentos de matemática elementar 1: conjunto e funções. 8ed.. São Paulo: Atual, 2004.
@@ -65,7 +65,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -78,7 +78,7 @@ include("../header.php");
             </tr>
 
                   <tr>
-                  <th colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
+                  <th class="disciplinas" colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
                   </tr>
                <tr>
                   <td colspan="2" id="celular1">Download<a href="https://drive.google.com/drive/folders/0B3YM51nGTGWganQxczVIU0RQLUE">

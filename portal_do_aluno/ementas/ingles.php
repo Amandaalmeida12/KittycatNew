@@ -7,17 +7,17 @@
 
       <section>
          <h1>Inglês Instrumental</h1>
-         <table class="conteudos_disciplinas" border="1"  >
+         <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente Curricular: Inglês Instrumental</th>
-               <th>Professor(a): Mari</th>
+               <th class="disciplinas"> Componente Curricular: Inglês Instrumental</th>
+               <th class="disciplinas">Professor(a): Mari</th>
             </tr>
             <tr>
-               <th>Período: 1º </th>
-               <th>Carga Horária: 30h</th>
+               <th class="disciplinas">Período: 1º </th>
+               <th class="disciplinas">Carga Horária: 30h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">Competências</th>
+               <th class="disciplinas" colspan="2" id="celula1">Competências</th>
             </tr>
             <td colspan="2" id="celula1">1. Aplicar o conhecimento, em nível básico, sobre a estrutura da língua inglesa para desenvolvimento da habilidade de leitura.
                <br>
@@ -27,7 +27,7 @@
             </td>
             <br>
             <tr>
-               <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -91,7 +91,7 @@
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">1. MUNHOZ, R.. Inglês instrumental: estratégias de leitura : módulo 1. São Paulo: Texto Novo. 2009.
@@ -102,7 +102,7 @@
                </td>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">

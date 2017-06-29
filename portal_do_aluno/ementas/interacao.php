@@ -4,17 +4,17 @@ include("../header.php");
 ?>
       <section>
          <h1> Interação Humano-Computador</h1>
-         <table class="conteudos_disciplinas" border="1"  >
+         <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente Curricular:Interação Humano-Computador </th>
-               <th>Professor(a): Ranieri </th>
+               <th class="disciplinas"> Componente Curricular:Interação Humano-Computador </th>
+               <th class="disciplinas">Professor(a): Ranieri </th>
             </tr>
             <tr>
-               <th>Período: 3º </th>
-               <th>Carga Horária: 45h</th>
+               <th class="disciplinas">Período: 3º </th>
+               <th class="disciplinas">Carga Horária: 45h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">Competências</th>
+               <th class="disciplinas" colspan="2" id="celula1">Competências</th>
             </tr>
             <td colspan="2" id="celula1">Princípios Básicos da Interação Homem-Computador:
                <br>
@@ -120,7 +120,7 @@ include("../header.php");
             </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">1. DAVID, Benyon. Interação Humano-Computador. 2 ed. São Paulo: Pearson Books, 2011.
@@ -133,7 +133,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -149,7 +149,7 @@ include("../header.php");
             </tr>
 
                <tr>
-                  <th colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
+                  <th class="disciplinas" colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
                   </tr>
                <tr>
                   <td colspan="2" id="celular1">Download<a href="https://drive.google.com/drive/folders/0B3YM51nGTGWgOWNrZ0NsWWotOW8">

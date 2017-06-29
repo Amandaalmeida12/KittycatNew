@@ -4,24 +4,24 @@ include("../header.php");
 ?>
       <section>
          <h1>Engenharia de Software</h1>
-       <table class="conteudos_disciplinas" border="1"  >
+       <table  class="disciplinas" class="conteudos_disciplinas" border="1"  >
           <tr>
-               <th> Componente Curricular: Engenharia de Software </th>
-               <th>Professor(a):Milton</th>
+               <th class="disciplinas"> Componente Curricular: Engenharia de Software </th>
+               <th class="disciplinas">Professor(a):Milton</th>
             </tr>
             <tr>
-               <th>Período: 3º </th>
-               <th>Carga Horária: 60h</th>
+               <th class="disciplinas">Período: 3º </th>
+               <th class="disciplinas">Carga Horária: 60h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">COMPETÊNCIAS</th>
+               <th class="disciplinas" colspan="2" id="celula1">COMPETÊNCIAS</th>
             </tr>
-            <th colspan="2" id="celula1">Conhecer e analisar métodos e diferentes abordagens para planejar, gerenciar, testar, manter e
+            <th class="disciplinas" colspan="2" id="celula1">Conhecer e analisar métodos e diferentes abordagens para planejar, gerenciar, testar, manter e
                avaliar a qualidade de um software.
                </td>
                <br>
             <tr>
-               <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -79,7 +79,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -94,7 +94,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">

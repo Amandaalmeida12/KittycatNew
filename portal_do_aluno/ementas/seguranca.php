@@ -5,17 +5,17 @@ include("../header.php");
         
       <section>
          <h1>Segurança do Trabalho</h1>
-         <table class="conteudos_disciplinas" border="1"  >
+         <table  class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente Curricular: Segurança do Trabalho </th>
-               <th>Professor(a): Danubia</th>
+               <th class="disciplinas"> Componente Curricular: Segurança do Trabalho </th>
+               <th class="disciplinas">Professor(a): Danubia</th>
             </tr>
             <tr>
-               <th>Período: 1º </th>
-               <th>Carga Horária: 30h</th>
+               <th class="disciplinas">Período: 1º </th>
+               <th class="disciplinas">Carga Horária: 30h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">Competências</th>
+               <th class="disciplinas" colspan="2" id="celula1">Competências</th>
             </tr>
             <td colspan="2" id="celula1">1. Conhecer as normas técnicas que regulam a segurança no trabalho;
                <br>
@@ -25,7 +25,7 @@ include("../header.php");
             </td>
             <br>
             <tr>
-               <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -57,7 +57,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">1. CAMPOS, A. CIPA - Uma Nova Abordagem. 14 ed. Editora SENAC. São Paulo, 1999.
@@ -70,7 +70,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">

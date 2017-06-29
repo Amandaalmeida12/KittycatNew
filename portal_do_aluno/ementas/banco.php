@@ -3,17 +3,17 @@
          ?>
       <section>
          <h1>Banco de Dados</h1>
-         <table class="conteudos_disciplinas" border="1"  >
+         <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente Curricular:Banco de Dados </th>
-               <th>Professor(a): Milton</th>
+               <th class="disciplinas"> Componente Curricular:Banco de Dados </th>
+               <th class="disciplinas">Professor(a): Milton</th>
             </tr>
             <tr>
-               <th>Período: 2º </th>
-               <th>Carga Horária: 60h</th>
+               <th class="disciplinas">Período: 2º </th>
+               <th class="disciplinas">Carga Horária: 60h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">Competências</th>
+               <th class="disciplinas" colspan="2" id="celula1">Competências</th>
             </tr>
             <td colspan="2" id="celula1">1. Identificar componentes de um Sistema de Banco de Dados e conhecer os principais itens a
                serem analisados na modelagem e gerenciamento de dados.
@@ -26,7 +26,7 @@
             </td>
             <br>
             <tr>
-               <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -54,7 +54,7 @@
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">1. DATE, C. J. Introdução a sistemas de banco de dados. 8. ed. Rio de Janeiro: Campus, 2004.
@@ -66,7 +66,7 @@
                </td>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -83,7 +83,7 @@
             </tr>
 
                <tr>
-                  <th colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
+                  <th class="disciplinas" colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
                   </tr>
                <tr>
                   <td colspan="2" id="celular1">Download<a href="https://drive.google.com/drive/folders/0B3YM51nGTGWgS2tNOTR5STRwUGs">

@@ -4,17 +4,17 @@ include("../header.php");
 ?>
    <section>
       <h1>Empreendedorismo</h1>
-     <table class="conteudos_disciplinas" border="1"  >
+     <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
          <tr>
-            <th> Componente Curricular: Empreendedorismo </th>
-            <th>Professor(a):Raquel</th>
+            <th class="disciplinas"> Componente Curricular: Empreendedorismo </th>
+            <th class="disciplinas">Professor(a):Raquel</th>
          </tr>
          <tr>
-            <th>Período: 3º </th>
-            <th>Carga Horária: 30h</th>
+            <th class="disciplinas">Período: 3º </th>
+            <th class="disciplinas">Carga Horária: 30h</th>
          </tr>
          <tr>
-            <th colspan="2" id="celula1">COMPETÊNCIAS</th>
+            <th class="disciplinas" colspan="2" id="celula1">COMPETÊNCIAS</th>
          </tr>
          <td colspan="2" id="celula1">1. Propor Empreendimentos em Informática.
             <br>
@@ -36,7 +36,7 @@ include("../header.php");
          </td>
          <br>
          <tr>
-            <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+            <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
          </tr>
          <tr>
             <td colspan="2" id="celula1">1. O perfil do empreendedor
@@ -59,7 +59,7 @@ include("../header.php");
             </td>
          </tr>
          <tr>
-            <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+            <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
          </tr>
          <tr>
             <td colspan="2" id="celula1">1. DORNELAS, J. Empreendedorismo na Prática. Rio de Janeiro: Editora Elsevier, 2007.
@@ -70,7 +70,7 @@ include("../header.php");
             </td>
          </tr>
          <tr>
-            <th colspan="2" id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+            <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
          </tr>
          <tr>
             <td colspan="2" id="celula1">
@@ -83,7 +83,7 @@ include("../header.php");
          </tr>
 
                <tr>
-                  <th colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
+                  <th class="disciplinas" colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
                   </tr>
                <tr>
                   <td colspan="2" id="celular1">Download<a href="https://drive.google.com/drive/folders/0B3YM51nGTGWgekxGRGtqQTVRVWc">

@@ -4,23 +4,23 @@
          ?>
       <section>
          <h1>Desenvolvimento para Web I</h1>
-         <table class="conteudos_disciplinas" border="1"  >
+         <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente CurricularDesenvolvimento para Web I </th>
-               <th>Professor(a): Ranieri</th>
+               <th class="disciplinas"> Componente CurricularDesenvolvimento para Web I </th>
+               <th class="disciplinas">Professor(a): Ranieri</th>
             </tr>
             <tr>
-               <th>Período: 2º </th>
-               <th>Carga Horária: 60h</th>
+               <th class="disciplinas">Período: 2º </th>
+               <th class="disciplinas">Carga Horária: 60h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">Competências</th>
+               <th class="disciplinas" colspan="2" id="celula1">Competências</th>
             </tr>
             <td colspan="2" id="celula1">Desenvolver um website funcional e publicá-lo na Internet
             </td>
             <br>
             <tr>
-               <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -94,7 +94,7 @@
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">1. COSTA, C. J. Desenvolvimento para WEB. ITML press / Lusocredito, 2007.
@@ -108,7 +108,7 @@
                </td>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -120,7 +120,7 @@
             </tr>
 
                <tr>
-                  <th colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
+                  <th class="disciplinas" colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
                   </tr>
                <tr>
                   <td colspan="2" id="celular1">Download<a href="https://drive.google.com/drive/folders/0B3YM51nGTGWgZUx6RXpsaEVKQ28">

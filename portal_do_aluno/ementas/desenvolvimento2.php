@@ -4,24 +4,24 @@
          ?>
       <section>
          <h1>  Desenvolvimento pra web 2</h1>
-        <table class="conteudos_disciplinas" border="1"  >
+        <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente Curricular: Desenvolvimento para web 2 </th>
-               <th>Professor(a): Alexandre</th>
+               <th class="disciplinas"> Componente Curricular: Desenvolvimento para web 2 </th>
+               <th class="disciplinas">Professor(a): Alexandre</th>
             </tr>
             <tr>
-               <th>Período: 3º </th>
-               <th>Carga Horária: 60h</th>
+               <th class="disciplinas">Período: 3º </th>
+               <th class="disciplinas">Carga Horária: 60h</th>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">COMPETÊNCIAS</th>
+               <th class="disciplinas" colspan="2"  id="celula1">COMPETÊNCIAS</th>
             </tr>
-            <th colspan="2" id="celula1">Projetar e implementar programas que construam páginas web dinâmicas.
+            <th class="disciplinas" colspan="2" id="celula1">Projetar e implementar programas que construam páginas web dinâmicas.
                Integrar estes programas a lógicas de negócio, desenvolvidas de forma independente.
                </td>
                <br>
             <tr>
-               <th colspan="2"  id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2"  id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">1.Linguagem de Programação para o lado Servidor – Servlets e JSP
@@ -60,7 +60,7 @@
                </td>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">1. KURNIAWAN, Budi. Java para a web com servlets, JSP e EJB. Rio de Janeiro: Ciência
@@ -74,7 +74,7 @@
                </td>
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">
@@ -86,7 +86,7 @@
             </tr>
             
              <tr>
-                  <th colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
+                  <th class="disciplinas" colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
                   </tr>
                <tr>
                   <td colspan="2" id="celular1">Download<a href="https://drive.google.com/drive/folders/0B3YM51nGTGWgc3JTdUo1cmktT3c">

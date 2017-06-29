@@ -4,24 +4,24 @@ include("../header.php");
 ?>
       <section>
          <h1>Ética Profissional e Cidadania</h1>
-         <table class="conteudos_disciplinas" border="1"  >
+         <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente Curricular: Ética Profissional e Cidadania</th>
-               <th>Professor(a): Willyans</th>
+               <th class="disciplinas"> Componente Curricular: Ética Profissional e Cidadania</th>
+               <th class="disciplinas">Professor(a): Willyans</th>
             </tr>
             <tr>
-               <th>Período: 2º </th>
-               <th>Carga Horária: 30h</th>
+               <th class="disciplinas">Período: 2º </th>
+               <th class="disciplinas">Carga Horária: 30h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">Competências</th>
+               <th class="disciplinas" colspan="2" id="celula1">Competências</th>
             </tr>
             <td colspan="2" id="celula1">Aplicar os princípios básicos legais, éticos e Moraes para formação de profissionais habilitados ao
                desenvolvimento de soluções computacionais.
             </td>
             <br>
             <tr>
-               <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -69,7 +69,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">1. DUPAS, Gilberto. Ética e poder na sociedade da informação: de como a autonomia das
@@ -85,7 +85,7 @@ include("../header.php");
                   4. SÁ, Antonio Lopes. Ética Profissional. São Paulo: Altas, 2005.
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -100,7 +100,7 @@ include("../header.php");
             </tr>
 
             <tr>
-                  <th colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
+                  <th class="disciplinas" colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
                   </tr>
                <tr>
                   <td colspan="2" id="celular1">Download<a href="https://drive.google.com/drive/folders/0B3YM51nGTGWgemR0cS1KcnhXWFU">

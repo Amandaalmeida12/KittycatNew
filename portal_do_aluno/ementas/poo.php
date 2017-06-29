@@ -5,24 +5,24 @@ include("../header.php");
         
       <section>
          <h1>Programação Orientada a Objeto</h1>
-         <table class="conteudos_disciplinas" border="1"  >
+         <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
-               <th> Componente Curricular: Programação Orientada a Objeto</th>
-               <th>Professor(a): Ranieri</th>
+               <th class="disciplinas"> Componente Curricular: Programação Orientada a Objeto</th>
+               <th class="disciplinas">Professor(a): Ranieri</th>
             </tr>
             <tr>
-               <th>Período: 2º </th>
-               <th>Carga Horária: 45h</th>
+               <th class="disciplinas">Período: 2º </th>
+               <th class="disciplinas">Carga Horária: 45h</th>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">Competências</th>
+               <th class="disciplinas" colspan="2" id="celula1">Competências</th>
             </tr>
             <td colspan="2" id="celula1">Utilizar os principais conceitos ligados à programação de computadores de acordo com o padrão
                de orientação a objetos.
             </td>
             <br>
             <tr>
-               <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+               <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
@@ -77,7 +77,7 @@ include("../header.php");
                </td>
             </tr>
             <tr>
-               <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+               <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
             </tr>
             <tr>
                <td colspan="2"  id="celula1">CADENHEAD, R.Java 2. 2 ed. Rio de Janeiro: CAMPUS, 2001.
@@ -87,7 +87,7 @@ include("../header.php");
                   HORSTMANN, C. Big Java. São Paulo: Bookman Companhia Ed, 2005.
             </tr>
             <tr>
-               <th colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+               <th class="disciplinas" colspan="2"  id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
             </tr>
             <tr>
                <td colspan="2" id="celula1">
