@@ -4,27 +4,26 @@ function num($num){
 
 }
 function montaEventos($info){
+	 include("./formularios/conexao.php");
 	 global $pdo;
-	
-	 $nome = $info['nome'];
-	 $data_de_nascimento = $info['data_de_nascimento'];
+	 $nome=$info['nome'];
+	 $data_de_nascimento=$info['data_de_nascimento'];
 	 $now=date('Y-m-d');
 
-	 $eventos=$pdo->prepare("SELECT * FROM users WHERE '".$data_de_nascimento."' >= NOW()");
+	 $eventos=$pdo->prepare("SELECT * FROM users");
 	 $eventos->execute();
-	 $retorno=array(); 
-	 while ($row =$eventos->fetchObject()) {
-	 	$dataArr=date('Y-m-d',strtotime($row->{$data_de_nascimento}));
+	 $retorno=array();
+	 while($row=$eventos->fetchObject()){
+	 	$dataArr=date('Y-m-d' ,strtotime($row->{$data_de_nascimento}));
 	 	$retorno[$dataArr]=array(
 	 		'data_de_nascimento'=>$row->{$data_de_nascimento},
 	 		'nome'=>$row->{$nome}
-	 		
-
 	 		);
+	 	
 	 }
 	 return $retorno;
 
-
+	
 }
 function diasMeses(){
 	$retorno=array();
@@ -110,12 +109,13 @@ function montaCalendario($eventos=array()){
 				$date=date('Y').'-'.$month.'-'.$dataNow;
 				if (in_array($date, array_keys($eventos))) {
 					$evento=$eventos[$date];
+					
 					echo '
-    <td class="eventos"  title="'.$evento['data_de_nascimento'].'" type="button"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">'.$numero.'</td>';?>
+    <td class="eventos"  title="'.$evento['data_de_nascimento'].'" type="button"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal11">'.$numero.'</td>';?>
     
     
     	
-  <div class="modal fade" id="myModal5" role="dialog">
+  <div class="modal fade" id="myModal11" role="dialog">
     <div class="modal-dialog">
      <div class="modal-content">
         <div class="modal-header">
@@ -137,6 +137,7 @@ function montaCalendario($eventos=array()){
 
 
 					<?php
+					
 
 					}else{
 					echo '<td>'.$numero.'</td>';
