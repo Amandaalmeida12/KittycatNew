@@ -2,49 +2,34 @@
 <?php
 session_start();
 if (!isset($_SESSION["usuario"])) {
-    include "login.php";
-  }else { 
-    include "./cronometro/cronometro.js";
+  include "login.php";
+}else { 
+  include "./cronometro/cronometro.js";
   ?> 
-    <div id="tempo">00:00:00</div> 
-    <div class="nome_user"><i class="fa fa-user" aria-hidden="true"></i><?php echo $_SESSION["usuario"];?></div>
-    <div class="deslogar" ><a href="./formularios/deslogar.php" class ="link1">Sair</a></div>
-<?php
-  }
+  <div id="tempo">00:00:00</div> 
+  <div class="nome_user"><i class="fa fa-user" aria-hidden="true"></i><?php echo $_SESSION["usuario"];?></div>
+  <div class="deslogar" ><a href="./formularios/deslogar.php" class ="link1">Sair</a></div>
+  <?php
+}
 ?>
 
- <head>
+<head>
  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="./js/jquery.js"></script>
-  <script type="text/javascript" src="../js/jquery.js"></script>
-  <script type="text/javascript" src="./js/functions.js"></script>
-  <script type="text/javascript" src="../js/functions.js"></script>
-  <link rel="stylesheet" type="text/css" href="./css/calendario.css">
-  <link rel="stylesheet" type="text/css" href="../css/calendario.css">
-  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="./bootstrap/js/bootstrap.min.js"></script>
-  <script src="../bootstrap/js/bootstrap.min.js"></script>
-  <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/main.css">
-  <link rel="stylesheet" type="text/css" href="../css/main.css">
-  <link rel="stylesheet" type="text/css" href="./css/forms.css">
-  <link rel="stylesheet" type="text/css" href="../css/forms.css">
-  <link rel="stylesheet" type="text/css" href="./css/css_balls.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <?php include_once 'estilos.php'; ?>
+
 </head>
 <body onload="start();">
 
 
-<div class="container">
+  <div class="container">
    <ul>
-        <li>IFPE</li>
+    <li>IFPE</li>
     <h1 class ="portal" ><a href="http://www.ifpe.edu.br" class ="link1">Instituto Federal  de Pernambuco</a></h1>
     <li>Campus Igarassu</li>
-   </ul>
-  </div>
+  </ul>
+</div>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
@@ -54,6 +39,6 @@ if (!isset($_SESSION["usuario"])) {
      <li><a href='wiki.php'><i class="fa fa-wordpress" aria-hidden="true"></i> Mediawiki</a></li>
      <li><a href='usuarios_cadastrados.php'><i class="fa fa-user" aria-hidden="true"></i> Usuários Cadastrados</a></li>
      <li><a href='aniversariantes_do_mes.php'><i class="fa fa-user" aria-hidden="true"></i> Aniversariantes do Mês</a></li>
-    </ul>
-  </div>
+   </ul>
+ </div>
 </nav>

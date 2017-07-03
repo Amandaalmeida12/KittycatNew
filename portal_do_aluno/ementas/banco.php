@@ -1,7 +1,7 @@
        <?php
-          include("../header.php");
-         ?>
-      <section>
+       include("../header.php");
+       ?>
+       <section>
          <h1>Banco de Dados</h1>
          <table class="disciplinas" class="conteudos_disciplinas" border="1"  >
             <tr>
@@ -82,18 +82,18 @@
                </td>
             </tr>
 
-               <tr>
-                  <th class="disciplinas" colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
-                  </tr>
-               <tr>
-                  <td colspan="2" id="celular1">Download<a href="https://drive.google.com/drive/folders/0B3YM51nGTGWgS2tNOTR5STRwUGs">
+            <tr>
+               <th class="disciplinas" colspan="2" id="celula1">MATERIAIS DAS AULAS</th>
+            </tr>
+            <tr>
+               <td colspan="2" id="celular1">Download<a href="https://drive.google.com/drive/folders/0B3YM51nGTGWgS2tNOTR5STRwUGs">
                   <img src="http://i65.tinypic.com/23ti93p.jpg"></a></td>
                </tr>
-         </table>
-         
+            </table>
+            
 
-      </section>
-     <?php
-          include("../footer.php");
+         </section>
+         <?php
+         include("../footer.php");
          ?>
 

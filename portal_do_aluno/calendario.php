@@ -4,24 +4,24 @@ function num($num){
 
 }
 function montaEventos($info){
-	 include("./formularios/conexao.php");
-	 global $pdo;
-	 $nome=$info['nome'];
-	 $data_de_nascimento=$info['data_de_nascimento'];
-	 $now=date('Y-m-d');
+	include("./formularios/conexao.php");
+	global $pdo;
+	$nome=$info['nome'];
+	$data_de_nascimento=$info['data_de_nascimento'];
+	$now=date('Y-m-d');
 
-	 $eventos=$pdo->prepare("SELECT * FROM users");
-	 $eventos->execute();
-	 $retorno=array();
-	 while($row=$eventos->fetchObject()){
-	 	$dataArr=date('Y-m-d' ,strtotime($row->{$data_de_nascimento}));
-	 	$retorno[$dataArr]=array(
-	 		'data_de_nascimento'=>$row->{$data_de_nascimento},
-	 		'nome'=>$row->{$nome}
-	 		);
-	 	
-	 }
-	 return $retorno;
+	$eventos=$pdo->prepare("SELECT * FROM users");
+	$eventos->execute();
+	$retorno=array();
+	while($row=$eventos->fetchObject()){
+		$dataArr=date('Y-m-d' ,strtotime($row->{$data_de_nascimento}));
+		$retorno[$dataArr]=array(
+			'data_de_nascimento'=>$row->{$data_de_nascimento},
+			'nome'=>$row->{$nome}
+			);
+		
+	}
+	return $retorno;
 
 	
 }
@@ -111,49 +111,49 @@ function montaCalendario($eventos=array()){
 					$evento=$eventos[$date];
 					
 					echo '
-    <td class="eventos"  title="'.$evento['data_de_nascimento'].'" type="button"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal11">'.$numero.'</td>';?>
-    
-    
-    	
-  <div class="modal fade" id="myModal11" role="dialog">
-    <div class="modal-dialog">
-     <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Aniversariantes</h4>
-        </div>
-        <div class="modal-body">
-          <p><?= $evento['nome'];?></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  
-</div>
-
-
-					<?php
+					<td class="eventos"  title="'.$evento['data_de_nascimento'].'" type="button"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal11">'.$numero.'</td>';?>
 					
+					
+					
+					<div class="modal fade" id="myModal11" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Aniversariantes</h4>
+								</div>
+								<div class="modal-body">
+									<p><?= $evento['nome'];?></p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
 
-					}else{
-					echo '<td>'.$numero.'</td>';
-				}
+
+				<?php
+				
+
 			}else{
 				echo '<td>'.$numero.'</td>';
-			}	
-			if ($y==7) {
-				$y=0;
-				echo '</tr><tr>';
 			}
+		}else{
+			echo '<td>'.$numero.'</td>';
+		}	
+		if ($y==7) {
+			$y=0;
+			echo '</tr><tr>';
 		}
-
-		echo '</tr></tbody>';
 	}
-	echo '</table>';
-	
+
+	echo '</tr></tbody>';
+}
+echo '</table>';
+
 }
 ?>
