@@ -1,24 +1,27 @@
-
-
-
 <?php include("../header.php");?>
-<?php
-require_once 'conexao.php';
 
-@session_start();
+<?php 
 
-if (isset($_SESSION['usuario'])) {
-	
+	require_once 'conexao.php';
 
-$loggedUser = $_SESSION['usuario'];
- 
-$logado = $pdo->query("SELECT * FROM users WHERE email = '$loggedUser'" );
-$fetch = $logado->fetchAll(); 
+	@session_start();
 
-header("location:conecta.php");
+	if (isset($_SESSION['usuario'])) {
+		
+
+		$loggedUser = $_SESSION['usuario'];
+
+		$array = array($loggedUser);
+
+		$stmt = $pdo->prepare("SELECT * FROM users WHERE email = ? ");
+		$stmt->execute($array);
+
+		$result = $stmt->fetchAll(); 
+		header("location:conecta.php");
 
 
-}
-?>
+	}
+?> 
+
 <?php include("../footer.php");?>
 

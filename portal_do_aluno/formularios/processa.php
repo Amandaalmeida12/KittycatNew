@@ -11,7 +11,11 @@ $senha = $_POST['senha'];
 
 $senha = sha1($senha);
 
-$ret = $pdo->query("INSERT INTO users(nome,data_de_nascimento,matricula,email,senha) VALUES ('$nome','$data_de_nascimento','$matricula','$email','$senha')");
+$array = array($nome, $data_de_nascimento, $matricula, $email, $senha);
+
+$stmt = $pdo->prepare("INSERT INTO users(nome,data_de_nascimento,matricula,email,senha) VALUES (?, ?, ?, ?, ?)");
+
+$stmt->execute($array);
 header("location:../formulario.php");
 
 ?>
