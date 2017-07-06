@@ -1,6 +1,7 @@
 
 <?php
 include("../header.php");
+include '../estilo_ementas.php';
 ?>
 <section>
    <h1> Interação Humano-Computador</h1>

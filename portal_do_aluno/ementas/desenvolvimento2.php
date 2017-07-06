@@ -1,6 +1,7 @@
 
 <?php
 include("../header.php");
+include '../estilo_ementas.php';
 ?>
 <section>
    <h1>  Desenvolvimento pra web 2</h1>

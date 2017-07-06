@@ -1,6 +1,7 @@
 
 <?php
 include("../header.php");
+include '../estilo_ementas.php';
 ?>
 <section>
    <h1> Fundamentos da Informática</h1>

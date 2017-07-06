@@ -316,20 +316,20 @@ include("header.php");
  </tr>
  <tr class="disciplinas">
    <td id="celula1" class="disciplinas">12:50h-13:35h</td>
-   <td id="celula1" class="disciplinas"><a href="ementas/Implantaçãoe.php"  class="link2">Implantação e Administração<br> de Serviços Web </a></td>
+   <td id="celula1" class="disciplinas"><a href="ementas/implementacao.php"  class="link2">Implantação e Administração<br> de Serviços Web </a></td>
    <td id="celula1" class="disciplinas">
     <a href= "ementas/projeto2.php" class="link2">
       Projeto e Prática II</a>
     </td>
-    <td id="celula1" class="disciplinas"><a href= "ementas/Implantaçãoe.php" class="link2">Implantação e Administração<br> de Serviços Web </a></td>
+    <td id="celula1" class="disciplinas"><a href= "ementas/implementacao.php" class="link2">Implantação e Administração<br> de Serviços Web </a></td>
     <td id="celula1" class="disciplinas"><a href="ementas/engenharia.php" class="link2">Engenharia de Software</a></td>
     <td id="celula1" class="disciplinas"></td>
   </tr>
   <tr class="disciplinas">
    <td id="celula1" class="disciplinas">13:35h-14:20h</td>
-   <td id="celula1" class="disciplinas"><a href= "ementas/Implantaçãoe.php" class="link2">Implantação e Administração<br> de Serviços Web </a></td>
+   <td id="celula1" class="disciplinas"><a href= "ementas/implementacao.php" class="link2">Implantação e Administração<br> de Serviços Web </a></td>
    <td id="celula1" class="disciplinas"><a href="ementas/projeto2.php" class="link2" >Projeto e Prática II</a></td>
-   <td id="celula1" class="disciplinas"><a href="ementas/Implantaçãoe.php"  class="link2">Implantação e Administração<br> de Serviços Web </a></td>
+   <td id="celula1" class="disciplinas"><a href="ementas/implementacao.php"  class="link2">Implantação e Administração<br> de Serviços Web </a></td>
    <td id="celula1" class="disciplinas"><a href="ementas/engenharia.php"  class="link2">Engenharia de Software</a> </td>
    <td id="celula1" class="disciplinas"><a href="ementas/desenvolvimento2.php" class="link2" >Desenvolvimento Web II</a></td>
  </tr>
@@ -337,7 +337,7 @@ include("header.php");
    <td id="celula1" class="disciplinas">14:20h-15:05h</td>
    <td id="celula1" class="disciplinas"><a href="ementas/engenharia.php" class="link2" >Engenharia de Software</a></td>
    <td id="celula1" class="disciplinas"><a href="ementas/interacao.php" class="link2">Interação Humano-Computador</a></td>
-   <td id="celula1" class="disciplinas"><a href="ementas/Implantaçãoe.php" class="link2" >Implantação e Administração<br> de Serviços Web   </a></td>
+   <td id="celula1" class="disciplinas"><a href="ementas/implementacao.php" class="link2" >Implantação e Administração<br> de Serviços Web   </a></td>
    <td id="celula1" class="disciplinas"><a href="ementas/desenvolvimento2.php" class="link2">Desenvolvimento Web II</a></td>
    <td id="celula1" class="disciplinas"><a href= "ementas/projeto2.php" class="link2">Projeto e Prática II</a></td>
  </tr>

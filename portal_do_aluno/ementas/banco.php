@@ -1,6 +1,8 @@
        <?php
        include("../header.php");
+       include '../estilo_ementas.php';
        ?>
+
        <section>
          <h1>Banco de Dados</h1>
          <table class="disciplinas" class="conteudos_disciplinas" border="1"  >

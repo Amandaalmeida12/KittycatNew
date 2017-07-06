@@ -1,33 +1,34 @@
-
+ 
 <?php
-include("menu.php");
+include("../header.php");
+include '../estilo_ementas.php';
 ?>
 <section>
    <h1>Implantação e
       Administração de Serviços Web
    </h1>
-   <table class="conteudos_disciplinas" border="1"  >
+   <table  class="disciplinas" class="conteudos_disciplinas" border="1"  >
       <tr>
-         <th> Componente Curricular: Implantação e
+         <th class="disciplinas"> Componente Curricular: Implantação e
             Administração de Serviços Web 
          </th>
-         <th>Professor(a):Ramon</th>
+         <th class="disciplinas">Professor(a):Ramon</th>
       </tr>
       <tr>
-         <th>Período: 3º </th>
-         <th>Carga Horária: 75h</th>
+         <th class="disciplinas">Período: 3º </th>
+         <th class="disciplinas">Carga Horária: 75h</th>
       </tr>
       <tr>
-         <th colspan="2" id="celula1">COMPETÊNCIAS</th>
+         <th class="disciplinas" colspan="2" id="celula1">COMPETÊNCIAS</th>
       </tr>
-      <th colspan="2" id="celula1">Reconhecer os serviços web.
+      <th class="disciplinas" colspan="2" id="celula1">Reconhecer os serviços web.
          Instalar e configurar os serviços: Web (HTTP), DNS, FTP, correio eletrônico, compartilhamento de
          arquivos e impressão.
          Compreender Multicamada.
       </td>
       <br>
       <tr>
-         <th colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
+         <th class="disciplinas" colspan="2" id="celula1">CONTEÚDOS PROGRAMÁTICOS</th>
       </tr>
       <tr>
          <td colspan="2" id="celula1">
@@ -54,7 +55,7 @@ include("menu.php");
          </td>
       </tr>
       <tr>
-         <th colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
+         <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA BÁSICA</th>
       </tr>
       <tr>
          <td colspan="2" id="celula1">
@@ -70,7 +71,7 @@ include("menu.php");
          </td>
       </tr>
       <tr>
-         <th colspan="2" id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
+         <th class="disciplinas" colspan="2" id="celula1">BIBLIOGRAFIA COMPLEMENTAR</th>
       </tr>
       <tr>
          <td colspan="2" id="celula1">
@@ -84,5 +85,5 @@ include("menu.php");
    </table>
 </section>
 <?php
-include("rodape.php");
+include("../footer.php");
 ?>
